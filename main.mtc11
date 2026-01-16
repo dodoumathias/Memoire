@@ -1,0 +1,20 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}Introduction}{\reset@font\mtcSfont 8}{section.2.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Comparaison entre UML et MERISE}{\reset@font\mtcSfont 8}{section.2.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3} Choix de la méthode de modélisation}{\reset@font\mtcSfont 9}{section.2.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4} Modélisation UML}{\reset@font\mtcSfont 9}{section.2.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.1} Identification des acteurs du système}{\reset@font\mtcSSfont 9}{subsection.2.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.2} Diagramme de cas d’utilisation}{\reset@font\mtcSSfont 9}{subsection.2.4.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.3}Diagramme des classes}{\reset@font\mtcSSfont 12}{subsection.2.4.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.4}Diagramme de séquences}{\reset@font\mtcSSfont 14}{subsection.2.4.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Choix Techniques}{\reset@font\mtcSfont 17}{section.2.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.1}Langages et Frameworks}{\reset@font\mtcSSfont 17}{subsection.2.5.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.5.1.1}Front-End : ReactJS}{\reset@font\mtcSSSfont 17}{subsubsection.2.5.1.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.5.1.2}Back-End : NestJS avec GraphQL et Prisma}{\reset@font\mtcSSSfont 17}{subsubsection.2.5.1.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.2}Base de Données}{\reset@font\mtcSSfont 17}{subsection.2.5.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.3}Architecture du Système}{\reset@font\mtcSSfont 17}{subsection.2.5.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.4}Sécurité}{\reset@font\mtcSSfont 18}{subsection.2.5.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.5}Outils de Modélisation}{\reset@font\mtcSSfont 18}{subsection.2.5.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.6}Avantages des Choix Techniques}{\reset@font\mtcSSfont 18}{subsection.2.5.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.7}Limites}{\reset@font\mtcSSfont 18}{subsection.2.5.7}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.6}Conclusion}{\reset@font\mtcSfont 19}{section.2.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.6.1}Perspectives Futures}{\reset@font\mtcSSfont 19}{subsection.2.6.1}}
