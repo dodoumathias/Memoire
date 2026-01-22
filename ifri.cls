@@ -10,9 +10,8 @@
 %  chargement des paquetages     %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[T1]{fontenc}
-\usepackage{ucs}
-\usepackage[utf8x]{inputenc}
-\usepackage[french, english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[french , english]{babel}
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor} % les couleurs avec les divers modes d'appels
 \usepackage{setspace}
 \usepackage[]{graphicx} % pour insérer des images
@@ -34,9 +33,11 @@
 %\usepackage{color} % les couleurs avec les divers modes d'appels
 % activer tous les liens
 \usepackage[ 
+            unicode=true,
             colorlinks=true,%activer la coloration des liens 
             linkcolor=RoyalBlue,% personaliser la couleur des liens simple
             ]{hyperref}
+        
 
 %\usepackage[nonumberlist, acronym, toc]{glossaries} %Mise en forme du glossaire
 \usepackage[acronym, toc]{glossaries} %Mise en forme du glossaire
@@ -132,6 +133,8 @@ frame=leftline
 \setlength\headheight{15pt}
 \renewcommand{\baselinestretch}{1.2} % espace entre les lignes
 \pagestyle{headings}
+
+
 
 
 \renewcommand{\listfigurename}{Liste des figures}

@@ -1,199 +1,3 @@
-% \addcontentsline{toc}{section}{Introduction}
-% \section*{Introduction}
-
-% \section{-}
-% blablabla
-
-% \section{-}
-% blablabla
-
-% \addcontentsline{toc}{section}{Conclusion}
-% \section*{Conclusion}
-
-
-
-
-
-% \addcontentsline{toc}{section}{Introduction}
-% \section*{Introduction}
-
-% La sécurité des véhicules, notamment contre le vol, est devenue une problématique majeure dans de nombreux pays, y compris au Bénin. Les cambriolages de véhicules sont en constante augmentation, et cela crée un besoin urgent de solutions innovantes et efficaces. Dans ce contexte, nous proposons un système d'alerte communautaire visant à alerter rapidement la population béninoise en cas de vol de véhicule. Ce système, basé sur une application web, a pour objectif de permettre aux utilisateurs de signaler des vols, d'être alertés en temps réel et de partager des informations pertinentes avec leurs voisins et les forces de l'ordre.
-
-% Notre approche consiste à utiliser les technologies modernes pour améliorer la réactivité face aux cambriolages et offrir aux citoyens un moyen efficace de lutter contre ce phénomène. Nous avons conçu et développé un système qui repose sur l'interaction entre différents acteurs, tels que les utilisateurs, la police et les administrateurs. Ce travail présente la méthodologie utilisée pour concevoir ce système ainsi que les résultats préliminaires obtenus lors des tests.
-
-% \section{Méthodologie}
-% Nous avons suivi une méthodologie en plusieurs étapes pour développer le système d'alerte communautaire.
-
-% \subsection{Analyse des Besoins}
-% Dans cette phase, nous avons mené des enquêtes auprès des propriétaires de véhicules afin d'identifier leurs préoccupations principales concernant le vol de véhicules. Ces enquêtes ont permis de mieux comprendre les attentes des utilisateurs et d'ajuster les fonctionnalités de notre système en fonction des besoins réels.
-
-
-
-
-
-
-% \subsection{Conception du Système}
-% Le système que nous avons conçu repose sur une application web qui permet aux utilisateurs de :
-% \begin{itemize}
-%     \item Signaler un vol de véhicule.
-%     \item Recevoir des alertes en temps réel concernant les vols dans leur région.
-%     \item Partager des informations avec leurs voisins pour créer une vigilance communautaire.
-% \end{itemize}
-% Afin de faciliter l'interaction entre les différents utilisateurs du système, nous avons défini trois acteurs principaux :
-% \begin{itemize}
-%     \item L'Utilisateur : Personne qui utilise l'application pour signaler un vol ou recevoir des alertes.
-%     \item La Police : Les agents de l'ordre qui gèrent les déclarations et suivent les actions liées à la récupération des véhicules volés.
-%     \item L'Administrateur : Personne responsable de la gestion des comptes et de l'attribution des rôles.
-% \end{itemize}
-
-
-
-
-
-% 	\textbf{\underline{le Diagramme de Cas d’Utilisation du système} }\\	
-	
-% \begin{figure}[h]
-% \includegraphics[width = 16.5cm ,height = 16cm]{Diagramme1.png}
-% \caption{le Diagramme de Cas d’Utilisation du système.}
-%  \label{fig:exemple_figure}
-% \end{figure}
-% %\vspace{0.5cm}
-
-
-
-% \begin{enumerate}
-% 	\item Creer un compte\\
-% 	\textbf{\underline{Description textuelle} }\\	
-% 	\begin{itemize}
-% 		\item L'utilisateur cré un compte en fournissant ces informations personnelles.
-% 		\item L'application vérifie sur si le compte existe déjà.
-% 		\item Si le compte existe déjà ,l'application affiche un message d'erreur
-% 		\item Si le compte n'existe pas , l'application crée le compte en affichant un message de confirmation.  
-% 	\end{itemize}
-% 	\item Créer Declaration\\
-% 	\textbf{\underline{Description textuelle} }\\
-% 		\begin{itemize}			
-% 			\item L'utilisateur cré une declaration en indiquant le type de la propriété volé ainsi qu eles informations sisponible qui l'identifie , la date et le lieu du vol .
-% 		\end{itemize}
-% 	\item Signaler vehicule\\
-% 	\textbf{\underline{Description textuelle} }\\
-% 	\begin{itemize}
-% 		\item L'utilisateur peut signaler la localisation d'un vehicule recherché.
-% 	\end{itemize}
-% 	\item Payer\\
-% 	\textbf{\underline{Description textuelle} }\\
-% 	\begin{itemize}
-% 		\item Les utilisateurs devrons payer pour chaque declaration de vol.
-% 	\end{itemize}
-% 	\item Se renseigner\\
-% 	\textbf{\underline{Description textuelle} }\\
-% 	\begin{itemize}
-% 		\item Les utilisateurs peuvent se renseigner par une discussion instantané au près de la police .
-% 	\end{itemize}
-	
-% 	\item Consulter liste declaration\\
-% 	\textbf{\underline{Description textuelle} }\\
-% 	\begin{itemize}
-% 		\item Les utilisateurs peuvent consulter la liste de toutes les declaration .
-% 	\end{itemize}
-% 	\item Gerer Declaration\\
-% 	\textbf{\underline{Description textuelle} }\\
-% 	\begin{itemize}
-% 		\item L'orsqu'un vehicule déclaré est retrouvé , l'agent policier modifie l'etat de la declaration concernée.
-% 	\end{itemize}
-% 	\item Gérer Rapport\\
-% 	\textbf{\underline{Description textuelle} }\\
-% 	\begin{itemize}
-% 		\item Créer un rapport de vol quotidien contenant toutes les déclarations de vols effectuées.
-% 	\end{itemize}
-% 	\item Gérer compte\\
-% 	\textbf{\underline{Description textuelle} }\\
-% 	\begin{itemize}
-% 		\item L'Admin est responsable de la gestion des comptes utilisateurs et l'attribution de role au policier.Il peut suprimer , bloquer un compte.
-% 	\end{itemize}
-% \end{enumerate}
-% \newpage
-% \textbf{\underline{Le Diagramme de Classe du système} }
-% \begin{figure}[h]
-% \includegraphics[width = 17cm ,height = 16cm]{classe.png}
-% \caption{Le Diagramme de Classe du système}
-%  \label{fig:exemple_figure}
-% \end{figure}
-% 	\vspace{0.5cm}
-% 	\begin{enumerate}
-% 	\item Utilisateur\\
-% 	\textbf{\underline{Description textuelle} }\\
-% 		\begin{itemize}
-% 			\item La classe Utilisateur représente les différents types d'utilisateurs du système.
-% 		\end{itemize}
-% 		\item Declaration\\
-% 	\textbf{\underline{Description textuelle} }\\
-% 		\begin{itemize}
-% 			\item La classe Declaration contient les informations sur les déclarations de vol, avec un lien vers les utilisateurs concernés.
-% 		\end{itemize}
-% 		\item Rapport\\
-% 	\textbf{\underline{Description textuelle} }\\
-% 		\begin{itemize}
-% 			\item La classe Rapport regroupe les déclarations pour une date donnée, avec des listes pour les nouvelles, modifiées et résolues.
-% 		\end{itemize}
-% 		\item Agent Police\\
-% 	\textbf{\underline{Description textuelle} }\\
-% 		\begin{itemize}
-% 			\item La classe Agant Police regroupe les differents types de force de l'ordre. 
-% 		\end{itemize}
-% 	\end{enumerate}
-% \vspace{0.5cm}
-% Les liens entre les classes montrent les relations entre les différents éléments du système.\\
-% Ce diagramme de classe capture les principales entités et leurs interactions pour la gestion des cambriolages de véhicules dans ce système.\par
-% %\vspace{0.5cm}
-% \newpage
-% \textbf{\underline{Les Diagrammes de séquences pour les cas d’utilisation suivants :} }
-% \\
-% \vspace{0.5cm}
-% 	\textbf{\underline{Declarer vol :} }
-% 	\begin{figure}[h]
-% 	\includegraphics[width = 16cm ,height = 14.5cm]{sequence1.png}
-% 	\end{figure}
-% \newpage
-% 	\textbf{\underline{Notice et diffusion :} }
-% 	\begin{figure}[h]
-		
-% 	\includegraphics[width = 16cm ,height = 16cm]{sequence3.png}
-% 	\end{figure}
-% \vspace{2cm}
-% \newpage	
-% 	\textbf{\underline{Alerter sur un vehicule rechercheé:} }
-% 	\begin{figure}[h]
-% 	\includegraphics[width = 16cm ,height = 15cm]{sequence2.png}
-% 	\end{figure}
-%    \end{itemize}
-
-
-
-
-
-
-
-
-
-
-% \section{Tests et Évaluation}
-% Des tests pilotes ont été réalisés dans plusieurs quartiers pour évaluer l'efficacité du système. Les tests ont permis de recueillir des données sur l'usage de l'application et d'identifier les points forts ainsi que les zones d'amélioration. Ces tests ont également permis de valider l'ergonomie et la rapidité du système d'alerte.
-
-% \addcontentsline{toc}{section}{Conclusion}
-% \section*{Conclusion}
-
-% Les résultats préliminaires montrent que le système développé a un impact positif sur la sécurité des véhicules au sein de la communauté. En effet :
-% \begin{itemize}
-%     \item 85\% des utilisateurs se sentent plus en sécurité grâce à l'utilisation du système.
-%     \item Le temps moyen pour signaler un vol a été réduit à moins de 5 minutes, permettant une réaction plus rapide des autorités et des citoyens.
-% \end{itemize}
-
-% Cependant, des améliorations restent nécessaires, notamment en termes de couverture géographique et d'optimisation de la plateforme pour un plus grand nombre d'utilisateurs. Les perspectives d'avenir incluent l'intégration de technologies avancées telles que l'intelligence artificielle pour une détection plus précise des comportements suspects et l'extension du système à d'autres régions.
-
-% En conclusion, notre système d'alerte communautaire représente une avancée significative dans la gestion des cambriolages de véhicules et pourrait contribuer à améliorer la sécurité publique au Bénin.
-
-
 \section{Introduction}
 Dans cette section, nous allons aborder la modélisation et la conception du système en prenant en compte les différentes méthodologies et outils de modélisation disponibles. Nous comparerons deux approches populaires, à savoir UML et MERISE, et justifierons le choix de la méthode la plus adaptée pour le projet. Ensuite, nous nous pencherons sur la mise en place de la modélisation UML, un standard largement utilisé dans la conception de systèmes informatiques.
 
@@ -205,7 +9,7 @@ UML (Unified Modeling Language) et MERISE sont deux méthodologies populaires ut
 UML est une méthode de modélisation orientée objet qui permet de représenter visuellement des systèmes complexes. Il est principalement utilisé pour modéliser les logiciels à travers des diagrammes qui illustrent les aspects statiques et dynamiques du système. UML se compose de plusieurs types de diagrammes, y compris les diagrammes de cas d’utilisation, les diagrammes de classes, et les diagrammes de séquences.
 
 \subsection*{MERISE}
-MERISE, quant à lui, est une méthode de modélisation orientée processus et données. Elle est principalement utilisée dans le cadre de la conception de bases de données et de systèmes d'information en général. Elle distingue trois niveaux : stratégique, conceptuel et logique. MERISE met l'accent sur la structuration des données et leur organisation dans le cadre de processus métiers.
+MERISE, quant à lui, est une méthode de modélisation orientée processus et données. Elle est principalement utilisée dans le cadre de la conception de bases de données et de systèmes d'information en général. Elle distingue trois niveaux :stratégique, conceptuel et logique. MERISE met l'accent sur la structuration des données et leur organisation dans le cadre de processus métiers.
 
 \subsection*{Comparaison}
 UML est plus flexible et centré sur les objets, ce qui est un avantage lorsqu'il s'agit de modéliser des systèmes informatiques complexes. MERISE, bien qu'il soit un peu plus ancien, est souvent préféré dans des contextes où l'organisation des données est primordiale. Le choix entre les deux méthodologies dépendra du type de projet et de la nature des exigences du système à modéliser.
@@ -215,7 +19,7 @@ Après avoir comparé les deux méthodologies de modélisation, nous avons opté
 
 \section{ Modélisation UML}
 \subsection{ Identification des acteurs du système}
-L’identification des acteurs du système est une étape clé dans la modélisation d’un système basé sur UML. Un acteur représente un rôle joué par un utilisateur ou un autre système qui interagit avec le système à modéliser. Dans notre système, les acteurs principaux sont les utilisateurs, les administrateurs et la police. Ces acteurs interagiront avec le système pour déclarer un vol, signaler un vehicule retrouvé, accéder à des données ou effectuer des actions de sécurité.
+L’identification des acteurs du système est une étape clé dans la modélisation d’un système basé sur UML.Un acteur représente un rôle joué par un utilisateur ou un autre système qui interagit avec le système à modéliser. Dans notre système, les acteurs principaux sont les utilisateurs, les administrateurs et la police. Ces acteurs interagiront avec le système pour déclarer un vol, signaler un vehicule retrouvé, accéder à des données ou effectuer des actions de sécurité.
 
 \newpage
 \subsection{ Diagramme de cas d’utilisation}
@@ -234,7 +38,7 @@ Le diagramme de cas d'utilisation est utilisé pour décrire les interactions en
 
 
 \begin{enumerate}
-	\item Creer un compte\\
+    \item Creer un compte\\
 	\textbf{\underline{Description textuelle} }\\	
 	\begin{itemize}
 		\item L'utilisateur cré un compte en fournissant ces informations personnelles.
@@ -290,19 +94,18 @@ Le diagramme de cas d'utilisation est utilisé pour décrire les interactions en
 \newpage
 
 \subsection{Diagramme des classes}
-Le diagramme de classes est utilisé pour décrire les objets du système et leurs relations. Dans ce diagramme, chaque classe représente une entité du système, et les relations entre ces classes (comme l’héritage, l'association, etc.) sont clairement indiquées. Par exemple, une classe "Véhicule" pourrait être liée à une classe "Propriétaire" avec une relation d'association.
-
+Le diagramme de classes est utilisé pour décrire les objets du système et leurs relations. Dans ce diagramme, chaque classe représente une entité du système, et les relations entre ces classes (comme l'héritage, l'association, etc.) sont clairement indiquées. Par exemple, une classe "Véhicule" pourrait être liée à une classe "Propriétaire" avec une relation d'association.
 
 \textbf{\underline{Le Diagramme de Classe du système} }
 \begin{figure}[h]
 \includegraphics[width = 17cm,height = 16cm]{classe.png}
 \caption{Le Diagramme de Classe du système}
- \label{fig:exemple_figure2}
+\label{fig:exemple_figure2}
 \end{figure}
-	\vspace{0.5cm}
-	\begin{enumerate}
+\vspace{0.5cm}
+\begin{enumerate}
 	\item Utilisateur\\
-	\textbf{\underline{Description textuelle} }\\
+     	\textbf{\underline{Description textuelle} }\\
 		\begin{itemize}
 			\item La classe Utilisateur représente les différents types d'utilisateurs du système.
 		\end{itemize}
@@ -339,7 +142,7 @@ Ce diagramme de classe capture les principales entités et leurs interactions po
 
 \subsection{Diagramme de séquences}
 Le diagramme de séquences illustre l’ordre des messages échangés entre les objets du système pendant l’exécution d’un scénario particulier. Ce type de diagramme permet de comprendre comment les acteurs et le système interagissent au fil du temps pour accomplir une tâche donnée.  
-Dans notre projet, les principaux cas d’utilisation représentés sont : déclarer un vol, diffuser une notice et alerter sur un véhicule recherché.
+Dans notre projet, les principaux cas d’utilisation représentés sont: déclarer un vol, diffuser une notice et alerter sur un véhicule recherché.
 
 \textbf{\underline{Déclarer un vol:}}  
 Le diagramme de séquence du scénario  Déclarer un vol  montre l’interaction entre l’utilisateur et le système.  
@@ -362,9 +165,9 @@ Le diagramme de séquence pour  Notice et diffusion  illustre le processus de ge
 \begin{itemize}
     \item Le système génère automatiquement une notice contenant les informations essentielles sur le véhicule déclaré. La couleur de diffusion varie selon le statut de la déclaration : 
 		\begin{itemize}
-			\item \textbf{Rouge} : lorsque le véhicule est déclaré \textit{volé},  
-			\item \textbf{Jaune} : lorsqu’un véhicule est \textit{signalé} mais pas encore retrouvé,  
-			\item \textbf{Vert} : lorsque le véhicule est \textit{retrouvé}.  
+			\item \textbf{Rouge}: lorsque le véhicule est déclaré \textit{volé},  
+			\item \textbf{Jaune}: lorsqu’un véhicule est \textit{signalé} mais pas encore retrouvé,  
+			\item \textbf{Vert}: lorsque le véhicule est \textit{retrouvé}.  
 		\end{itemize}
 
     \item Cette notice est diffusée en temps réel vers les utilisateurs de cette application web.
@@ -382,7 +185,7 @@ Le diagramme de séquence pour  Notice et diffusion  illustre le processus de ge
 \textbf{\underline{Alerter sur un véhicule recherché :}}  
 Le diagramme de séquence du scénario  Alerter sur un véhicule recherché  met en évidence la manière dont le système traite une alerte lorsqu’un utilisateur ou une autorité signale un véhicule suspect.  
 \begin{itemize}
-    \item L’utilisateur envoie une alerte avec des informations .
+    \item L’utilisateur envoie une alerte avec des informations
     \item Le système compare les données reçues avec la base des véhicules déclarés volés.
     \item Si une correspondance est trouvée, une notification est envoyée aux polices et aux administrateurs.
     % \item L’administrateur peut ensuite initier des actions comme la confirmation de l’alerte ou la communication avec les forces de l’ordre.
@@ -406,23 +209,23 @@ Le développement du système de gestion et de déclaration de cambriolages de v
 
 \subsection{Langages et Frameworks}
 
-\subsubsection{Front-End : ReactJS}
+\subsubsection{Front-End: ReactJS}
 Pour l’interface utilisateur, nous avons choisi \textbf{ReactJS}, une bibliothèque JavaScript permettant la création d’interfaces dynamiques et réactives.  
-Ses principaux atouts sont : la réutilisabilité des composants, la réduction de la redondance du code et l’optimisation des performances grâce au DOM virtuel.  
+Ses principaux atouts sont: la réutilisabilité des composants, la réduction de la redondance du code et l’optimisation des performances grâce au DOM virtuel.  
 Ces caractéristiques améliorent l’expérience utilisateur et facilitent la maintenance.
 
-\subsubsection{Back-End : NestJS avec GraphQL et Prisma}
+\subsubsection{Back-End: NestJS avec GraphQL et Prisma}
 Le back-end repose sur \textbf{NestJS}, un framework modulaire basé sur \textbf{Node.js} et \textbf{TypeScript}, adapté aux applications évolutives.  
 Nous avons adopté \textbf{GraphQL} avec l’approche \textbf{Code First}, où le schéma est généré automatiquement à partir des classes TypeScript. Cela assure une forte cohérence entre le code et l’API (Application Programming Interface).  
 
 La gestion des données est assurée par \textbf{Prisma}, un ORM moderne qui simplifie les opérations en base, génère automatiquement un client typé et facilite les migrations.  
 
-\textbf{Avantages principaux :}  
+\textbf{Avantages principaux:}  
 \begin{itemize}
-    \item Structure modulaire et maintenable avec NestJS.  
-    \item Requêtes optimisées : GraphQL ne renvoie que les données nécessaires.  
-    \item Gestion simplifiée des données et typage strict grâce à Prisma.  
-    \item Sécurité renforcée avec la validation et l’injection de dépendances.  
+    \item Structure modulaire et maintenable avec NestJS
+    \item Requêtes optimisées: GraphQL ne renvoie que les données nécessaires  
+    \item Gestion simplifiée des données et typage strict grâce à Prisma
+    \item Sécurité renforcée avec la validation et l’injection de dépendances  
 \end{itemize}
 
 La combinaison NestJS–GraphQL–Prisma constitue une solution moderne et robuste pour la construction d’API performantes.
@@ -445,10 +248,10 @@ Cette architecture modulaire garantit la scalabilité et une maintenance simplif
 \subsection{Sécurité}
 La sécurité est un aspect central du projet, avec les mesures suivantes:  
 \begin{itemize}
-    \item \textbf{Authentification sécurisée} avec JSON Web Tokens (JWT).  
-    \item \textbf{Chiffrement des communications} via HTTPS.  
-    \item \textbf{Contrôle d’accès} basé sur les rôles.  
-    \item \textbf{Hashage des mots de passe} avec bcrypt.  
+    \item \textbf{Authentification sécurisée} avec JSON Web Tokens (JWT)
+    \item \textbf{Chiffrement des communications} via HTTPS
+    \item \textbf{Contrôle d’accès} basé sur les rôles
+    \item \textbf{Hashage des mots de passe} avec bcrypt
 \end{itemize}
 Ces mécanismes assurent la confidentialité et l’intégrité des données.
 
@@ -458,12 +261,12 @@ Cet outil facilite la documentation et la standardisation des modèles.
 
 \subsection{Avantages des Choix Techniques}
 \begin{itemize}
-    \item Interfaces dynamiques et performantes grâce à ReactJS.  
-    \item API robuste et typée avec NestJS, GraphQL et Prisma.  
-    \item Données fiables et extensibles via PostgreSQL.  
-    \item Sécurité renforcée par JWT, HTTPS et bcrypt.  
-    \item Architecture modulaire et scalable avec Nginx.  
-    \item Documentation claire grâce à UML.  
+    \item Interfaces dynamiques et performantes grâce à ReactJS
+    \item API robuste et typée avec NestJS, GraphQL et Prisma
+    \item Données fiables et extensibles via PostgreSQL
+    \item Sécurité renforcée par JWT, HTTPS et bcrypt
+    \item Architecture modulaire et scalable avec Nginx
+    \item Documentation claire grâce à UML
 \end{itemize}
 
 \subsection{Limites}
@@ -476,9 +279,32 @@ Cet outil facilite la documentation et la standardisation des modèles.
 \section{Conclusion}
 L'utilisation combinée des méthodologies MERISE et UML, ainsi que des technologies modernes telles que ReactJS, NestJS, PostgreSQL, Prisma et Docker, nous permet de concevoir un système robuste et performant pour la gestion des cambriolages de véhicules. Ce système facilitera la collaboration entre les utilisateurs, les administrateurs et la police, tout en garantissant la sécurité et la fiabilité des données traitées.
 
-\subsection{Perspectives Futures}
-Dans les perspectives futures, l'intégration de technologies avancées comme l’intelligence artificielle et les systèmes de surveillance intelligents pourrait améliorer la détection des comportements suspects et la réactivité des forces de l'ordre. L'intégration des capteurs IoT et des caméras de surveillance permettra d'enrichir le système pour une meilleure gestion des cambriolages de véhicules.
+\section{Perspectives et Améliorations Futures}
 
+Les perspectives futures de la lutte contre le vol et le cambriolage de véhicules reposent sur plusieurs axes technologiques et organisationnels majeurs :
 
+\begin{itemize}
+    \item \textbf{Intégration de l’intelligence artificielle (IA)} : utilisation d’algorithmes d’apprentissage automatique pour analyser les données issues des caméras, capteurs et plateformes de signalement, afin de détecter automatiquement les comportements suspects et de prédire les zones à haut risque de vol.
 
+    \item \textbf{Systèmes de surveillance intelligents} : déploiement de caméras intelligentes capables d’effectuer une reconnaissance automatique des plaques d’immatriculation et d’identifier des scénarios de cambriolage en temps réel.
 
+    \item \textbf{Généralisation de l’Internet des Objets (IoT)} : intégration de capteurs connectés (détecteurs de mouvement, d’ouverture de portières, de bris de vitre) dans les véhicules pour une surveillance continue et l’envoi d’alertes instantanées aux propriétaires et aux forces de l’ordre.
+
+    \item \textbf{Plateformes hybrides public–privé} : renforcement de la collaboration entre les forces de sécurité, les compagnies d’assurance, les collectivités locales et les acteurs privés afin d’améliorer le partage et l’exploitation des informations.
+
+    \item \textbf{Interconnexion des bases de données} : mise en réseau des bases de données nationales et internationales pour faciliter la traçabilité des véhicules volés et accélérer les procédures de récupération.
+
+    \item \textbf{Utilisation de la blockchain} : sécurisation des données de signalement des vols grâce à des registres distribués garantissant l’intégrité, la traçabilité et la transparence des informations.
+
+    \item \textbf{Applications mobiles et systèmes collaboratifs} : développement de solutions participatives permettant aux citoyens de signaler rapidement les incidents et de contribuer activement à la prévention du cambriolage de véhicules.
+
+\end{itemize}
+
+\section{Conclusion}
+
+\begin{itemize}
+    \item Le vol et le cambriolage de véhicules représentent un enjeu majeur de sécurité publique à l’échelle mondiale.
+    \item Les plateformes institutionnelles, les solutions technologiques et les applications grand public jouent un rôle complémentaire dans la prévention et la lutte contre ce phénomène.
+    \item Aucune solution unique n’est suffisante ; une approche combinant technologies avancées, coopération public–privé et participation citoyenne est indispensable.
+    \item Les perspectives futures montrent que l’évolution vers des systèmes intelligents, interconnectés et sécurisés constitue une voie prometteuse pour réduire durablement les actes de vol et de cambriolage de véhicules.
+\end{itemize}
