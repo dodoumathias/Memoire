@@ -13,20 +13,21 @@ Les systèmes de sécurité pour véhicules sont des dispositifs technologiques 
 \subsection{Géolocalisation et Traçabilité}
 La géolocalisation permet de suivre en temps réel la position d’un véhicule, notamment grâce à des technologies comme le GPS (Global Positioning System). Ces dispositifs permettent aux autorités de localiser un véhicule volé et de faciliter sa récupération rapide.
 
-\section{Plateformes principales de lutte contre le vol de véhicules}
 
+\section{Plateformes principalesde gestion et suivi des vols de véhicules}
 
-
-
-% \section{Analyse des Plateformes de Lutte contre le Vol de Véhicules}
 
 \subsection{Interpol-Fichier des Véhicules Volés (FVV)}
 
 \textbf{Description:}  
-Interpol gère une base de données internationale centralisée regroupant les informations sur les véhicules volés dans ses pays membres. Les autorités policières peuvent interroger ce fichier en temps réel.
+Interpol met à disposition la base de données \textit{Stolen Motor Vehicles Database (SMV)}, qui recense les véhicules volés à l’échelle internationale et facilite le suivi transfrontalier. Cette plateforme permet aux forces de l’ordre de consulter et d’échanger des informations sur les véhicules volés. \cite{interpol2023}
 
 \textbf{Fonctionnalités:}
 \begin{itemize}
+    \item Enregistrement des véhicules volés par les pays membres.
+    \item Consultation en temps réel par les forces de l’ordre.
+    \item Échange sécurisé d’informations entre États.
+    \item Identification des véhicules retrouvés à l’étranger.
     \item Base de données mondiale des véhicules volés.
     \item Accès en temps réel pour les forces de l’ordre.
     \item Coopération internationale grâce aux Bureaux Nationaux Interpol (NCB).
@@ -37,244 +38,404 @@ Interpol gère une base de données internationale centralisée regroupant les i
     \item Portée mondiale.
     \item Améliore la rapidité des enquêtes transfrontalières.
     \item Données fiables mises à jour régulièrement.
+    \item Couverture internationale permettant le suivi des véhicules volés dans plusieurs pays.  
+    \item Facilite la coopération entre forces de l’ordre et augmente les chances de récupération des véhicules.  
+    \item Accès centralisé aux informations sur les vols, réduisant les redondances.
 \end{itemize}
 
 \textbf{Limites:}
 \begin{itemize}
-    \item Réservé aux autorités, pas d’accès direct aux citoyens.
-    \item Dépend fortement de la réactivité des pays membres.
+
+
+     \item Accès réservé aux forces de l’ordre et aux agences partenaires, donc limité pour les particuliers.  
+    \item Dépendance à la mise à jour régulière des informations par chaque pays.  
+    \item Ne couvre pas les vols non déclarés ou informels.
 \end{itemize}
 
-\textbf{Référence:}  
-Interpol. (2023).\textit{Stolen Motor Vehicles Database (SMV)}. Disponible sur: \url{https://www.interpol.int}  
 
----
 
-\subsection{Europol-Système d’Information Schengen (SIS II)}
 
-\textbf{Description:}  
-Le SIS II est un système européen permettant le partage des signalements de véhicules volés entre les pays de l’espace Schengen. Il facilite la coopération policière transfrontalière.
 
-\textbf{Fonctionnalités:}
+\subsection{ Europol – Schengen Information System (SIS II)}
+\textbf{Description :}  
+Le \textit{Schengen Information System (SIS II)} est une base de données européenne utilisée par les États membres pour suivre les véhicules volés et autres informations relatives à la sécurité. Elle permet le signalement immédiat et la consultation en temps réel des véhicules volés dans l’espace Schengen. \cite{europol2023}
+\textbf{Fonctionnalités :}
 \begin{itemize}
-    \item Signalement et recherche de véhicules volés.
-    \item Interconnexion avec les bases policières nationales.
-    \item Accès instantané aux informations pour toutes les polices Schengen.
+    \item Signalement immédiat des véhicules volés.
+    \item Consultation en temps réel par les autorités frontalières et policières.
+    \item Interconnexion avec d’autres systèmes de sécurité européens.
+\end{itemize}
+\textbf{Avantages :}  
+\begin{itemize}
+    \item Couverture efficace des pays membres de l’espace Schengen.  
+    \item Permet une réaction rapide des autorités grâce à la consultation en temps réel.  
+    \item Intègre les véhicules volés dans une approche globale de sécurité publique.
 \end{itemize}
 
-\textbf{Avantages:}
+\textbf{Limites :}  
 \begin{itemize}
-    \item Couverture complète de l’espace Schengen.
-    \item Facilite l’interopérabilité entre les pays européens.
+    \item Réservé aux autorités publiques et aux agents habilités.  
+    \item Limité à l’espace Schengen, ne couvre pas les véhicules volés en dehors de cette zone.  
+    \item Nécessite une infrastructure informatique fiable pour un accès et une mise à jour efficaces.
 \end{itemize}
 
-\textbf{Limites:}
+\subsection{Service Public France – Déclarer un vol de véhicule}
+\textbf{Description :}  
+Le site officiel du \textit{Service Public} permet aux particuliers de déclarer rapidement un vol de véhicule en ligne, facilitant la prise en charge par les forces de l’ordre et la transmission aux compagnies d’assurance. \cite{servicepublic2023}
+
+\textbf{Fonctionnalités :}
 \begin{itemize}
-    \item Réservé à l’Europe (zone Schengen).
-    \item Ne couvre pas les vols en dehors de cette zone.
+    \item Déclaration en ligne du vol de véhicule.
+    \item Génération d’un récépissé officiel.
+    \item Transmission automatique aux forces de l’ordre.
+    \item Utilisation du dossier pour les assurances.
 \end{itemize}
 
-\textbf{Référence:}  
-Europol. (2023).\textit{Schengen Information System (SIS II)}. Disponible sur: \url{https://www.europol.europa.eu}  
-
----
-
-\subsection{Stolen Vehicle Recovery (SVR)}
-
-\textbf{Description:}  
-SVR est une solution de suivi GPS pour localiser un véhicule volé en temps réel. Elle repose sur des boîtiers installés dans le véhicule et connectés aux réseaux GSM/GPS
-
-\textbf{Fonctionnalités:}
+\textbf{Avantages :}  
 \begin{itemize}
+    \item Accès facile pour tous les citoyens français, simplifiant la procédure de déclaration.  
+    \item Permet une traçabilité officielle des véhicules volés.  
+    \item Peut accélérer les démarches administratives et d’assurance.
+\end{itemize}
+
+\textbf{Limites :}  
+\begin{itemize}
+    \item Limité au territoire français.  
+    \item Ne fournit pas de suivi en temps réel ni de géolocalisation du véhicule.  
+    \item La récupération du véhicule dépend entièrement des forces de l’ordre et du suivi administratif.
+\end{itemize}
+
+\subsection{ Vehicle Tracking Solutions (VTS)}
+\textbf{Description :}  
+VTS offre des services de suivi en temps réel et de récupération de véhicules pour particuliers et flottes professionnelles \cite{vts2023}.
+
+\textbf{Fonctionnalités :}
+\begin{itemize}
+    \item Géolocalisation en temps réel.
+    \item Alertes automatiques en cas de déplacement suspect.
+    \item Historique des trajets.
+    \item Gestion de flottes professionnelles.
+\end{itemize}
+
+\textbf{Avantages :}  
+\begin{itemize}
+    \item Suivi en temps réel via GPS.  
+    \item Notifications instantanées en cas de mouvement suspect.  
+    \item Convient aux particuliers et aux flottes.
+\end{itemize}
+
+\textbf{Limites :}  
+\begin{itemize}
+    \item Nécessite un abonnement et un équipement GPS.  
+    \item Dépend de la couverture réseau pour le suivi.
+\end{itemize}
+
+\subsection{LoJack Corporation}
+\textbf{Description :}  
+LoJack propose des solutions anti-vol avec géolocalisation pour récupérer rapidement les véhicules volés \cite{lojack2023}.
+
+\textbf{Fonctionnalités :}
+\begin{itemize}
+    \item Localisation du véhicule après vol.
+    \item Transmission des données aux autorités.
+    \item Suivi discret du véhicule.
+\end{itemize}
+
+
+\textbf{Avantages :}  
+\begin{itemize}
+    \item Technologie éprouvée de récupération rapide.  
+    \item Compatible avec la police et les autorités locales.  
+    \item Installation simple pour particuliers et flottes.
+\end{itemize}
+
+\textbf{Limites :}  
+\begin{itemize}
+    \item Abonnement nécessaire.  
+    \item Fonctionne mieux dans les zones couvertes par le réseau LoJack.
+\end{itemize}
+
+\subsection{Carlock}
+\textbf{Description :}  
+Carlock fournit un suivi en temps réel des véhicules avec alertes instantanées en cas de mouvement non autorisé \cite{carlock2023}.
+
+\textbf{Fonctionnalités :}
+\begin{itemize}
+    \item Détection de mouvement non autorisé.
+    \item Alertes instantanées sur smartphone.
     \item Suivi GPS en temps réel.
-    \item Notifications automatiques en cas de vol.
     \item Historique des déplacements.
 \end{itemize}
 
-\textbf{Avantages:}
+\textbf{Avantages :}  
 \begin{itemize}
-    \item Rapidité de localisation et de récupération.
-    \item Compatible avec différents types de véhicules.
+    \item Alertes immédiates sur smartphone.  
+    \item Suivi en temps réel pour les flottes et particuliers.  
+    \item Historique complet des déplacements.
 \end{itemize}
 
-\textbf{Limites:}
+\textbf{Limites :}  
 \begin{itemize}
-    \item Abonnement requis.
-    \item Dépendance à la couverture GSM/GPS
+    \item Nécessite un abonnement et un boîtier installé dans le véhicule.  
+    \item Dépend du réseau mobile pour les notifications.
 \end{itemize}
 
-\textbf{Référence:}  
-Vehicle Tracking Solutions. (2023).\textit{SVR Services}. Disponible sur: \url{https://www.vts.com}  
+\subsection{Whistle}
+\textbf{Description :}  
+Whistle est un système de suivi intelligent de véhicules, avec alertes instantanées et rapports d’activité \cite{whistle2023}.
 
----
-
-\subsection{LoJack}
-
-\textbf{Description:}  
-LoJack est une solution de récupération de véhicules volés utilisant un émetteur radio caché. Contrairement au GPS, il fonctionne même dans des zones à faible signal.
-
-\textbf{Fonctionnalités:}
+\textbf{Fonctionnalités :}
 \begin{itemize}
-    \item Émetteur radio intégré au véhicule.
-    \item Localisation par les forces de l’ordre.
-    \item Activation après signalement du vol.
+    \item Suivi GPS précis.
+    \item Alertes en cas de vol ou déplacement suspect.
+    \item Rapports et statistiques d’utilisation.
 \end{itemize}
 
-\textbf{Avantages:}
+
+
+\textbf{Avantages :}  
 \begin{itemize}
-    \item Système discret et difficile à neutraliser.
-    \item Ne dépend pas d’un réseau GPS
+    \item Suivi GPS précis et notifications en temps réel.  
+    \item Historique des déplacements consultable à tout moment.  
+    \item Compatible avec les smartphones.
 \end{itemize}
 
-\textbf{Limites:}
+\textbf{Limites :}  
 \begin{itemize}
-    \item Présence limitée géographiquement (principalement USA).
-    \item Installation professionnelle obligatoire.
+    \item Abonnement requis pour le service complet.  
+    \item Dépendance à la couverture réseau et à l’installation correcte du dispositif.
 \end{itemize}
 
-\textbf{Référence:}  
-LoJack Corporation. (2023).\textit{Vehicle Recovery Solutions}. Disponible sur: \url{https://www.lojack.com}  
+\subsection{Genetec – ANPR Systems}
+\textbf{Description :}  
+Genetec propose des systèmes de reconnaissance automatique des plaques d’immatriculation (ANPR) pour identifier les véhicules volés \cite{genetec2022}.
 
----
-
-\subsection{Applications Mobiles Communautaires (Carlock, Whistle)}
-
-\textbf{Description:}  
-Ces applications permettent aux propriétaires de véhicules de recevoir des alertes et de suivre leur voiture grâce à un smartphone et un boîtier connecté.
-
-\textbf{Fonctionnalités:}
+\textbf{Fonctionnalités :}
 \begin{itemize}
-    \item Alertes en cas de mouvement suspect.
-    \item Suivi GPS via smartphone.
-    \item Partage d’informations avec une communauté.
+    \item Lecture automatique des plaques d’immatriculation.
+    \item Comparaison avec les bases de données policières.
+    \item Détection en temps réel des véhicules recherchés.
 \end{itemize}
 
-\textbf{Avantages:}
+
+\textbf{Avantages :}  
 \begin{itemize}
-    \item Accessibles au grand public.
-    \item Interface simple et intuitive.
+    \item Repérage automatisé des véhicules volés sur routes et parkings.  
+    \item Intégration avec les bases de données de la police.  
+    \item Surveillance passive 24/7.
 \end{itemize}
 
-\textbf{Limites:}
+\textbf{Limites :}  
 \begin{itemize}
-    \item Dépendance au smartphone de l’utilisateur.
-    \item Efficacité variable selon les applications.
+    \item Installation coûteuse.  
+    \item Nécessite des caméras et infrastructure technique appropriée.
 \end{itemize}
 
-\textbf{Références:}  
-Carlock. (2023).\textit{Real-time Car Tracking \& Security}. Disponible sur: \url{https://www.carlock.co}  
-Whistle. (2023).\textit{Smart Vehicle Tracking}. Disponible sur: \url{https://whistledrive.com}  
-
----
-
-\subsection{ANPR -Reconnaissance Automatique de Plaques}
-
-\textbf{Description:}  
-Les systèmes ANPR utilisent des caméras intelligentes pour lire et comparer les plaques d’immatriculation avec les bases de données de véhicules volés.
-
-\textbf{Fonctionnalités:}
-\begin{itemize}
-    \item Scan automatique des plaques.
-    \item Détection en temps réel.
-    \item Alertes aux forces de l’ordre.
-\end{itemize}
-
-\textbf{Avantages:}
-\begin{itemize}
-    \item Détection automatisée et rapide.
-    \item Large couverture grâce aux caméras fixes et mobiles.
-\end{itemize}
-
-\textbf{Limites:}
-\begin{itemize}
-    \item Coût élevé des infrastructures.
-    \item Problèmes de confidentialité.
-\end{itemize}
-
-\textbf{Référence:}  
-Genetec. (2022).\textit{Automatic Number Plate Recognition Systems}. Disponible sur: \url{https://www.genetec.com}  
-
----
-
-\subsection{Carfax}
-
-\textbf{Description:}  
-Carfax est une base de données sur l’historique des véhicules, principalement utilisée en Amérique du Nord, qui permet de vérifier si un véhicule a déjà été volé.
-
-\textbf{Fonctionnalités:}
-\begin{itemize}
-    \item Rapports d’historique de véhicules.
-    \item Vérification des vols signalés.
-    \item Intégration avec bases policières et assurances.
-\end{itemize}
-
-\textbf{Avantages:}
-\begin{itemize}
-    \item Réduit le risque d’acheter un véhicule volé.
-    \item Service reconnu par les acheteurs et concessionnaires.
-\end{itemize}
-
-\textbf{Limites:}
-\begin{itemize}
-    \item Service payant.
-    \item Couverture limitée hors Amérique du Nord.
-\end{itemize}
-
-\textbf{Référence:}  
-Carfax. (2023).\textit{Vehicle History Reports}. Disponible sur:\url{https://www.carfax.com}  
-
----
-
-\subsection{Plateformes Locales de Signalement (France)}
-
-\textbf{Description:}  
-En France, plusieurs plateformes officielles permettent aux citoyens de déclarer un vol de véhicule et d’accéder aux informations centralisées.
-
-\textbf{Fonctionnalités:}
-\begin{itemize}
-    \item Déclaration en ligne du vol.
-    \item Consultation publique des véhicules volés.
-    \item Lien direct avec la police et la gendarmerie.
-\end{itemize}
-
-\textbf{Avantages:}
-\begin{itemize}
-    \item Accessibles à tous les citoyens.
-    \item Procédure simplifiée de signalement.
-\end{itemize}
-
-\textbf{Limites:}
-\begin{itemize}
-    \item Portée limitée à un seul pays.
-    \item Efficacité dépendante des forces locales.
-\end{itemize}
-
-\textbf{Référence:}  
-Service Public France. (2023).\textit{Déclarer un vol de véhicule}. Disponible sur:\url{https://www.service-public.fr}  
 
 
 
-\section{Enjeux et Défis}
 
-Malgré la diversité des solutions existantes, plusieurs défis persistent :
 
-\begin{itemize}
-    \item \textbf{Interopérabilité des systèmes} : difficulté à faire communiquer les plateformes entre pays et acteurs privés.
-    \item \textbf{Protection des données personnelles} : risque de surveillance excessive et d’atteinte à la vie privée.
-    \item \textbf{Inégalités d’accès technologique} : coûts élevés limitant l’adoption dans les pays en développement.
-    \item \textbf{Dépendance technologique} : vulnérabilité face au brouillage GPS ou aux sabotages.
-\end{itemize}
 
-\section{Perspectives et Améliorations Futures}
 
-Les évolutions technologiques ouvrent de nouvelles perspectives pour la lutte contre le vol de véhicules :
 
-\begin{itemize}
-    \item Intégration de l’\textbf{intelligence artificielle} pour prédire les zones et risques de vol.
-    \item Utilisation de la \textbf{blockchain} pour sécuriser les bases de données de signalement.
-    \item Développement de plateformes \textbf{hybrides public–privé}.
-    \item Généralisation des systèmes connectés dans les véhicules intelligents (IoT).
-\end{itemize}
+% % \section{Analyse des Plateformes de Lutte contre le Vol de Véhicules}
+
+% \subsection{Europol-Système d’Information Schengen (SIS II)}
+
+% \textbf{Description:}  
+% Le SIS II est un système européen permettant le partage des signalements de véhicules volés entre les pays de l’espace Schengen. Il facilite la coopération policière transfrontalière.
+
+% \textbf{Fonctionnalités:}
+% \begin{itemize}
+%     \item Signalement et recherche de véhicules volés.
+%     \item Interconnexion avec les bases policières nationales.
+%     \item Accès instantané aux informations pour toutes les polices Schengen.
+% \end{itemize}
+
+% \textbf{Avantages:}
+% \begin{itemize}
+%     \item Couverture complète de l’espace Schengen.
+%     \item Facilite l’interopérabilité entre les pays européens.
+% \end{itemize}
+
+% \textbf{Limites:}
+% \begin{itemize}
+%     \item Réservé à l’Europe (zone Schengen).
+%     \item Ne couvre pas les vols en dehors de cette zone.
+% \end{itemize}
+
+% \subsection{Stolen Vehicle Recovery (SVR)}
+
+% \textbf{Description:}  
+% SVR est une solution de suivi GPS pour localiser un véhicule volé en temps réel. Elle repose sur des boîtiers installés dans le véhicule et connectés aux réseaux GSM/GPS
+
+% \textbf{Fonctionnalités:}
+% \begin{itemize}
+%     \item Suivi GPS en temps réel.
+%     \item Notifications automatiques en cas de vol.
+%     \item Historique des déplacements.
+% \end{itemize}
+
+% \textbf{Avantages:}
+% \begin{itemize}
+%     \item Rapidité de localisation et de récupération.
+%     \item Compatible avec différents types de véhicules.
+% \end{itemize}
+
+% \textbf{Limites:}
+% \begin{itemize}
+%     \item Abonnement requis.
+%     \item Dépendance à la couverture GSM/GPS
+% \end{itemize}
+% Les services de géolocalisation permettent d’améliorer significativement la récupération des véhicules volés \cite{vts2023}.
+
+% \subsection{LoJack}
+
+% \textbf{Description:}  
+% LoJack est une solution de récupération de véhicules volés utilisant un émetteur radio caché. Contrairement au GPS, il fonctionne même dans des zones à faible signal.
+
+% \textbf{Fonctionnalités:}
+% \begin{itemize}
+%     \item Émetteur radio intégré au véhicule.
+%     \item Localisation par les forces de l’ordre.
+%     \item Activation après signalement du vol.
+% \end{itemize}
+
+% \textbf{Avantages:}
+% \begin{itemize}
+%     \item Système discret et difficile à neutraliser.
+%     \item Ne dépend pas d’un réseau GPS
+% \end{itemize}
+
+% \textbf{Limites:}
+% \begin{itemize}
+%     \item Présence limitée géographiquement (principalement USA).
+%     \item Installation professionnelle obligatoire.
+% \end{itemize}
+
+% Les solutions de récupération de véhicules basées sur la géolocalisation contribuent efficacement à la lutte contre le vol automobile \cite{lojack2023}.
+
+
+% \subsection{Applications Mobiles Communautaires (Carlock, Whistle)}
+
+% \textbf{Description:}  
+% Ces applications permettent aux propriétaires de véhicules de recevoir des alertes et de suivre leur voiture grâce à un smartphone et un boîtier connecté.
+
+% \textbf{Fonctionnalités:}
+% \begin{itemize}
+%     \item Alertes en cas de mouvement suspect.
+%     \item Suivi GPS via smartphone.
+%     \item Partage d’informations avec une communauté.
+% \end{itemize}
+
+% \textbf{Avantages:}
+% \begin{itemize}
+%     \item Accessibles au grand public.
+%     \item Interface simple et intuitive.
+% \end{itemize}
+
+% \textbf{Limites:}
+% \begin{itemize}
+%     \item Dépendance au smartphone de l’utilisateur.
+%     \item Efficacité variable selon les applications.
+% \end{itemize}
+
+% Les systèmes de suivi en temps réel améliorent la sécurité des véhicules \cite{carlock2023,whistle2023}.
+
+
+% \subsection{ANPR -Reconnaissance Automatique de Plaques}
+
+% \textbf{Description:}  
+% Les systèmes ANPR utilisent des caméras intelligentes pour lire et comparer les plaques d’immatriculation avec les bases de données de véhicules volés.
+
+% \textbf{Fonctionnalités:}
+% \begin{itemize}
+%     \item Scan automatique des plaques.
+%     \item Détection en temps réel.
+%     \item Alertes aux forces de l’ordre.
+% \end{itemize}
+
+% \textbf{Avantages:}
+% \begin{itemize}
+%     \item Détection automatisée et rapide.
+%     \item Large couverture grâce aux caméras fixes et mobiles.
+% \end{itemize}
+
+% \textbf{Limites:}
+% \begin{itemize}
+%     \item Coût élevé des infrastructures.
+%     \item Problèmes de confidentialité.
+% \end{itemize}
+% Les systèmes de reconnaissance automatique des plaques d’immatriculation permettent de localiser et suivre efficacement les véhicules \cite{genetec2022}.
+
+
+% \subsection{Carfax}
+
+% \textbf{Description:}  
+% Carfax est une base de données sur l’historique des véhicules, principalement utilisée en Amérique du Nord, qui permet de vérifier si un véhicule a déjà été volé.
+
+% \textbf{Fonctionnalités:}
+% \begin{itemize}
+%     \item Rapports d’historique de véhicules.
+%     \item Vérification des vols signalés.
+%     \item Intégration avec bases policières et assurances.
+% \end{itemize}
+
+% \textbf{Avantages:}
+% \begin{itemize}
+%     \item Réduit le risque d’acheter un véhicule volé.
+%     \item Service reconnu par les acheteurs et concessionnaires.
+% \end{itemize}
+
+% \textbf{Limites:}
+% \begin{itemize}
+%     \item Service payant.
+%     \item Couverture limitée hors Amérique du Nord.
+% \end{itemize}
+% Les rapports d’historique de véhicules fournissent des informations cruciales pour évaluer la sécurité et l’état des véhicules \cite{carfax2023}.
+
+
+
+% \subsection{Plateformes Locales de Signalement (France)}
+
+% \textbf{Description:}  
+% En France, plusieurs plateformes officielles permettent aux citoyens de déclarer un vol de véhicule et d’accéder aux informations centralisées.
+
+% \textbf{Fonctionnalités:}
+% \begin{itemize}
+%     \item Déclaration en ligne du vol.
+%     \item Consultation publique des véhicules volés.
+%     \item Lien direct avec la police et la gendarmerie.
+% \end{itemize}
+
+% \textbf{Avantages:}
+% \begin{itemize}
+%     \item Accessibles à tous les citoyens.
+%     \item Procédure simplifiée de signalement.
+% \end{itemize}
+
+% \textbf{Limites:}
+% \begin{itemize}
+%     \item Portée limitée à un seul pays.
+%     \item Efficacité dépendante des forces locales.
+% \end{itemize}
+% Les démarches officielles pour déclarer un vol de véhicule sont décrites sur le site du Service Public \cite{servicepublic2023}.
+
+
+
+
+% \section{Enjeux et Défis}
+
+% Malgré la diversité des solutions existantes, plusieurs défis persistent :
+
+% \begin{itemize}
+%     \item \textbf{Interopérabilité des systèmes} : difficulté à faire communiquer les plateformes entre pays et acteurs privés.
+%     \item \textbf{Protection des données personnelles} : risque de surveillance excessive et d’atteinte à la vie privée.
+%     \item \textbf{Inégalités d’accès technologique} : coûts élevés limitant l’adoption dans les pays en développement.
+%     \item \textbf{Dépendance technologique} : vulnérabilité face au brouillage GPS ou aux sabotages.
+% \end{itemize}
+
 
 \section{Conclusion}
 

@@ -1,12 +1,14 @@
-%--------------A VOTRE ATTENTION-------------%
-% Les étudiants en master qui disposent de plus de 3 chapitres dans leurs travaux peuvent en complèter
-% Les Membres doivent figurer dans la dernière version finale du mémoire après soutenance pour dépôt de mémoire
-
 \documentclass{ifri}
+
 \usepackage[french]{babel}
-
-
 \usepackage{titletoc}
+
+\usepackage[acronym]{glossaries}
+\makeglossaries
+
+\setlength{\glsdescwidth}{0.65\textwidth}
+
+\loadglsentries{glossaire_reduit}
 \setlength{\glsdescwidth}{0.65\textwidth}% \usepackage{lscape}
 
 \typeMemoire{Diplôme de Licence en Informatique}
@@ -95,13 +97,24 @@
 %\newpage
 
 % Les sigles et acronymes
+% Liste des acronymes
+
+% Liste des acronymes
 \setglossarystyle{altlist}
-\printglossary[title=Liste des acronymes, toctitle=Liste des acronymes, type=\acronymtype]
+\printglossary[
+  title=Liste des acronymes,
+  toctitle=Liste des acronymes,
+  type=\acronymtype
+]
 \newpage
 
-% Le glossaire proprement dit
-%\setglossarystyle{super}
-%\printglossary[type=main]
+% Glossaire
+\printglossary[
+  title=Glossaire,
+  toctitle=Glossaire,
+  type=main
+]
+\newpage
 
 
 \pagenumbering{arabic}
@@ -116,6 +129,7 @@
 
 \chapter{Revue de littérature}\label{chap:1}
 \input{1-partie/1-fichier}
+
 
 \chapter{Modélisation et Comception UML}\label{chap:2}
 \input{2-partie/1-fichier}
@@ -132,7 +146,7 @@
 %%biblio
 \addcontentsline{toc}{chapter}{Bibliographie}
 \nocite{*}
-\bibliographystyle{abbrv}
+\bibliographystyle{unsrt}
 \bibliography{biblio}
 
 

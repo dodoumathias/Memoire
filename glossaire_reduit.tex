@@ -1,14 +1,41 @@
-\newacronym{acro}{acronyme}{Def acronyme}
+% ---------- Glossaire principal ----------
 
-\newglossaryentry{acroglo}{type=\acronymtype, name={acroglo}, description={A la fois dans les deux\glsadd{acroglog}},see=[Glossaire:]{acroglog}
+\newglossaryentry{acroglo}{
+    name={acroglo},
+    description={Terme apparaissant à la fois dans le glossaire et les acronymes}
 }
 
-\newglossaryentry{acroglog}{name=acroglo, description={A la fois dans les deux.}}
+\newglossaryentry{glossaire}{
+    name={Glossaire},
+    description={Liste des termes techniques utilisés dans ce document}
+}
 
-\newglossaryentry{glossaire}
- {
- name=glossaire,
- description={Ici se trouve le contenu du glossaire}
- }
- 
- 
+\newglossaryentry{react}{
+    name={ReactJS},
+    description={Bibliothèque JavaScript pour la création d'interfaces utilisateur},
+    sort={React}
+}
+
+\newglossaryentry{nestjs}{
+    name={NestJS},
+    description={Framework Node.js permettant de construire des applications serveur efficaces et évolutives},
+    sort={Nest}
+}
+
+\newglossaryentry{postgresql}{
+    name={PostgreSQL},
+    description={Système de gestion de base de données relationnelle open source},
+    sort={PostgreSQL}
+}
+
+\newglossaryentry{prisma}{
+    name={Prisma},
+    description={Outil d’Object-Relational Mapping (ORM) pour Node.js et TypeScript},
+    sort={Prisma}
+}
+
+\newglossaryentry{docker}{
+    name={Docker},
+    description={Plateforme de conteneurisation permettant de déployer des applications de manière isolée},
+    sort={Docker}
+}
