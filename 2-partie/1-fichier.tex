@@ -1,31 +1,11 @@
-% \section{Introduction}
-% Dans cette section, nous allons aborder la modélisation et la conception du système en prenant en compte les différentes méthodologies et outils de modélisation disponibles. Nous comparerons deux approches populaires, à savoir UML et MERISE, et justifierons le choix de la méthode la plus adaptée pour le projet. Ensuite, nous nous pencherons sur la mise en place de la modélisation UML, un standard largement utilisé dans la conception de systèmes informatiques.
 
 
-% \section{Comparaison entre UML et MERISE}
-% UML (Unified Modeling Language) et MERISE sont deux méthodologies populaires utilisées pour la modélisation des systèmes d’information. Cependant, elles diffèrent dans leur approche et leur utilisation.
-
-% \subsection*{UML}
-% UML est une méthode de modélisation orientée objet qui permet de représenter visuellement des systèmes complexes. Il est principalement utilisé pour modéliser les logiciels à travers des diagrammes qui illustrent les aspects statiques et dynamiques du système. UML se compose de plusieurs types de diagrammes, y compris les diagrammes de cas d’utilisation, les diagrammes de classes, et les diagrammes de séquences.
-
-% \subsection*{MERISE}
-% MERISE, quant à lui, est une méthode de modélisation orientée processus et données. Elle est principalement utilisée dans le cadre de la conception de bases de données et de systèmes d'information en général. Elle distingue trois niveaux :stratégique, conceptuel et logique. MERISE met l'accent sur la structuration des données et leur organisation dans le cadre de processus métiers.
-
-% \subsection*{Comparaison}
-% UML est plus flexible et centré sur les objets, ce qui est un avantage lorsqu'il s'agit de modéliser des systèmes informatiques complexes. MERISE, bien qu'il soit un peu plus ancien, est souvent préféré dans des contextes où l'organisation des données est primordiale. Le choix entre les deux méthodologies dépendra du type de projet et de la nature des exigences du système à modéliser.
-
-% \section{ Choix de la méthode de modélisation}
-% Après avoir comparé les deux méthodologies de modélisation, nous avons opté pour l'utilisation de la méthode UML pour ce projet. Cela est dû à sa capacité à modéliser des systèmes orientés objet et à sa popularité dans le domaine du développement logiciel moderne. UML permet de créer des diagrammes de classes, des diagrammes de séquences, et des cas d’utilisation qui sont essentiels pour une bonne compréhension du système dans sa globalité.
-
-% \section{ Modélisation UML}
-% \subsection{ Identification des acteurs du système}
-% L’identification des acteurs du système est une étape clé dans la modélisation d’un système basé sur UML.Un acteur représente un rôle joué par un utilisateur ou un autre système qui interagit avec le système à modéliser. Dans notre système, les acteurs principaux sont les utilisateurs, les administrateurs et la police. Ces acteurs interagiront avec le système pour déclarer un vol, signaler un vehicule retrouvé, accéder à des données ou effectuer des actions de sécurité.
 
 \section{Introduction}
 Dans cette section, nous allons aborder la modélisation et la conception du système en prenant en compte les différentes méthodologies et outils de modélisation disponibles. Nous justifierons le choix de la méthode UML, un standard largement utilisé dans la conception de systèmes informatiques, pour la modélisation de notre projet.
 
 \section{UML (Unified Modeling Language)}
-UML est une méthode de modélisation orientée objet qui permet de représenter visuellement des systèmes complexes. Il est principalement utilisé pour modéliser les logiciels à travers des diagrammes illustrant les aspects statiques et dynamiques du système. UML se compose de plusieurs types de diagrammes, y compris les diagrammes de cas d’utilisation, les diagrammes de classes et les diagrammes de séquences.
+\gls{UML} est une méthode de modélisation orientée objet qui permet de représenter visuellement des systèmes complexes. Il est principalement utilisé pour modéliser les logiciels à travers des diagrammes illustrant les aspects statiques et dynamiques du système. UML se compose de plusieurs types de diagrammes, y compris les diagrammes de cas d’utilisation, les diagrammes de classes et les diagrammes de séquences.
 
 \section{Choix de la méthode de modélisation}
 Pour ce projet, nous avons opté pour l'utilisation de la méthode UML en raison de sa capacité à modéliser des systèmes orientés objet et de sa popularité dans le domaine du développement logiciel moderne. UML permet de créer des diagrammes  de cas d'utilisations, le diagramme de classes, des diagrammes de séquences  qui sont essentiels pour une bonne compréhension du système dans sa globalité.
@@ -33,7 +13,8 @@ Pour ce projet, nous avons opté pour l'utilisation de la méthode UML en raison
 \section{Modélisation UML}
 
 \subsection{Outils de Modélisation}
-Nous avons utilisé l’outil \textbf{Dia} pour réaliser les diagrammes de cas d’utilisation, de classes et de séquences.  
+Nous avons utilisé l’outil \textbf{\gls{Dia}}
+pour réaliser les diagrammes de cas d’utilisation, de classes et de séquences.  
 Il s’agit d’un exemple parmi plusieurs outils disponibles pour la modélisation UML, et il facilite la clarté de la documentation ainsi que la standardisation des modèles, contribuant à une meilleure compréhension et maintenance du système.
 
 \subsection{Identification des acteurs du système}
@@ -221,6 +202,271 @@ Le diagramme de séquence du scénario  Alerter sur un véhicule recherché  met
 \newpage
 
 
+\section{Choix Techniques}
+
+Le développement du système de gestion et de déclaration de cambriolages de véhicules repose sur des choix technologiques adaptés aux besoins du projet. Ces choix sont guidés par des critères tels que la performance, la sécurité, la scalabilité et la maintenabilité.
+
+% \subsection{ \gls{Langages} et  \gls{Frameworks} }
+\subsection{\texorpdfstring{\gls{Langages} et \gls{Frameworks}}{Langages et Frameworks}}
+
+
+% \subsubsection{\gls{Front-End}: ReactJS}
+\subsubsection{\texorpdfstring{\gls{Front-End}: ReactJS}{Front-End: ReactJS}}
+
+Pour l’interface utilisateur, nous avons choisi \textbf{ReactJS} \cite{reactjs}, une bibliothèque JavaScript permettant la création d’interfaces dynamiques et réactives.  
+Ses principaux atouts sont : la réutilisabilité des composants, la réduction de la redondance du code et l’optimisation des performances grâce au \gls{DOM} virtuel.  
+Ces caractéristiques améliorent l’expérience utilisateur et facilitent la maintenance.
+
+\subsubsection{Back-End: NestJS avec GraphQL et Prisma}
+Le \gls{Back-End} repose sur \textbf{NestJS} \cite{nestjs}, un framework modulaire basé sur \textbf{\gls{Node.js}} et \textbf{\gls{TypeScript}}, adapté aux applications évolutives.  
+Nous avons adopté \textbf{GraphQL} \cite{graphql} avec l’approche \textbf{\gls{Code First}}, où le schéma est généré automatiquement à partir des classes TypeScript. Cela assure une forte cohérence entre le code et l’API.  
+
+La gestion des données est assurée par \textbf{Prisma} \cite{prisma}, un \gls{ORM} moderne qui simplifie les opérations en base, génère automatiquement un client typé et facilite les migrations.  
+
+\textbf{Avantages principaux :}  
+\begin{itemize}
+    \item Structure modulaire et maintenable avec NestJS
+    \item Requêtes optimisées : GraphQL ne renvoie que les données nécessaires  
+    \item Gestion simplifiée des données et typage strict grâce à Prisma
+    \item Sécurité renforcée avec la validation et l’injection de dépendances  
+\end{itemize}
+
+\subsection{Base de Données}
+Le projet utilise \textbf{PostgreSQL} \cite{postgresql}, un \gls{SGBDR} \gls{open-source} reconnu pour sa fiabilité et sa conformité aux standards SQL.  
+Il offre une gestion avancée des transactions.
+
+\subsection{Architecture du Système et Conteneurisation}
+L’architecture adoptée est de type \textbf{\gls{client-serveur}} et conteneurisée avec \textbf{Docker} \cite{docker} :
+\begin{itemize}
+    \item \textbf{Front-end :} ReactJS communique avec le serveur via des requêtes et mutations GraphQL \cite{reactjs, graphql}.  
+    \item \textbf{Back-end :} NestJS implémente l’API GraphQL (Code First) et interagit avec la base via Prisma \cite{nestjs, prisma}.  
+    \item \textbf{Base de données :} PostgreSQL, assurant robustesse et intégrité des données \cite{postgresql}.  
+    \item \textbf{Infrastructure :} Nginx agit comme \gls{reverse proxy} pour la gestion des requêtes HTTP/HTTPS et l’équilibrage de charge \cite{nginx}.  
+    \item \textbf{Docker :} chaque composant (front-end, back-end, base de données) est isolé dans des conteneurs, garantissant portabilité, déploiement simplifié et cohérence entre les environnements \cite{docker}.
+\end{itemize}
+
+Cette architecture modulaire et conteneurisée garantit la scalabilité, la portabilité et une maintenance simplifiée.
+
+\subsection{Sécurité}
+La sécurité est un aspect central du projet, renforcé par plusieurs couches de protection :  
+\begin{itemize}
+    \item \textbf{Authentification sécurisée} avec \gls{JSON} Web Tokens (JWT) et expiration automatique des sessions
+    \item \textbf{Chiffrement des communications} via \gls{HTTPS} et \gls{TLS}
+    \item \textbf{Contrôle d’accès} basé sur les rôles et permissions granulaires
+    \item \textbf{Hashage des mots de passe} avec bcrypt \cite{bcrypt} et salage renforcé
+    \item \textbf{Sécurité des conteneurs Docker} : isolation des services, limitation des privilèges et mise à jour régulière des images
+    \item \textbf{Protection contre les injections et attaques} : validation stricte des entrées utilisateur, prévention des injections \gls{SQL} et \gls{XSS}
+    \item \textbf{Journalisation et audit} : traçabilité de toutes les actions sensibles pour détecter les anomalies
+\end{itemize}
+
+Ces mesures assurent la confidentialité, l’intégrité et la disponibilité des données.
+
+
+\subsection{Avantages des Choix Techniques}
+\begin{itemize}
+    \item Interfaces dynamiques et performantes grâce à ReactJS
+    \item \gls{API} robuste et typée avec NestJS, \gls{GraphQL} et Prisma
+    \item Données fiables et extensibles via PostgreSQL
+    \item Sécurité renforcée par JWT, HTTPS, \gls{bcrypt} et bonnes pratiques Docker
+    \item Architecture modulaire, scalable et conteneurisée avec Docker et \gls{Nginx}
+    \item Documentation claire grâce à UML
+\end{itemize}
+
+\subsection{Limites}
+\begin{itemize}
+    \item \textbf{Complexité technique} nécessitant une expertise en JavaScript/TypeScript, NestJS et Prisma  
+    \item \textbf{Courbe d’apprentissage élevée} pour GraphQL, Docker et l’architecture sécurisée  
+    \item \textbf{Consommation de ressources} plus importante avec PostgreSQL et Docker que des solutions légères
+\end{itemize}
+
+
+\section{Conclusion}
+L'utilisation combinée des technologies modernes telles que \gls{ReactJS}, \gls{NestJS}, \gls{PostgreSQL}, \gls{Prisma} et \gls{Docker}, ainsi que des bonnes pratiques de sécurité, nous permet de concevoir un système robuste et performant pour la gestion des cambriolages de véhicules. Ce système facilitera la collaboration entre les utilisateurs, les administrateurs et la police, tout en garantissant la sécurité, la fiabilité et la portabilité des données traitées.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% \section{Conclusion}
+% L’utilisation combinée des technologies modernes telles que \gls{react}, \gls{nestjs}, \gls{postgresql}, \gls{prisma} et \gls{docker}, associée à l’adoption de bonnes pratiques de sécurité, a permis de concevoir un système robuste et performant dédié à la gestion des cambriolages de véhicules.  
+% Ce système favorise la collaboration entre les utilisateurs, les administrateurs et les forces de l’ordre, tout en garantissant la sécurité, la fiabilité et la portabilité des données traitées.
+
+% Le frontend est développé avec \gls{react}.
+% Le backend utilise \gls{nestjs} et \gls{postgresql}.
+% Le déploiement est réalisé avec \gls{docker}.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% \section{Introduction}
+% Dans cette section, nous allons aborder la modélisation et la conception du système en prenant en compte les différentes méthodologies et outils de modélisation disponibles. Nous comparerons deux approches populaires, à savoir UML et MERISE, et justifierons le choix de la méthode la plus adaptée pour le projet. Ensuite, nous nous pencherons sur la mise en place de la modélisation UML, un standard largement utilisé dans la conception de systèmes informatiques.
+
+
+% \section{Comparaison entre UML et MERISE}
+% UML (Unified Modeling Language) et MERISE sont deux méthodologies populaires utilisées pour la modélisation des systèmes d’information. Cependant, elles diffèrent dans leur approche et leur utilisation.
+
+% \subsection*{UML}
+% UML est une méthode de modélisation orientée objet qui permet de représenter visuellement des systèmes complexes. Il est principalement utilisé pour modéliser les logiciels à travers des diagrammes qui illustrent les aspects statiques et dynamiques du système. UML se compose de plusieurs types de diagrammes, y compris les diagrammes de cas d’utilisation, les diagrammes de classes, et les diagrammes de séquences.
+
+% \subsection*{MERISE}
+% MERISE, quant à lui, est une méthode de modélisation orientée processus et données. Elle est principalement utilisée dans le cadre de la conception de bases de données et de systèmes d'information en général. Elle distingue trois niveaux :stratégique, conceptuel et logique. MERISE met l'accent sur la structuration des données et leur organisation dans le cadre de processus métiers.
+
+% \subsection*{Comparaison}
+% UML est plus flexible et centré sur les objets, ce qui est un avantage lorsqu'il s'agit de modéliser des systèmes informatiques complexes. MERISE, bien qu'il soit un peu plus ancien, est souvent préféré dans des contextes où l'organisation des données est primordiale. Le choix entre les deux méthodologies dépendra du type de projet et de la nature des exigences du système à modéliser.
+
+% \section{ Choix de la méthode de modélisation}
+% Après avoir comparé les deux méthodologies de modélisation, nous avons opté pour l'utilisation de la méthode UML pour ce projet. Cela est dû à sa capacité à modéliser des systèmes orientés objet et à sa popularité dans le domaine du développement logiciel moderne. UML permet de créer des diagrammes de classes, des diagrammes de séquences, et des cas d’utilisation qui sont essentiels pour une bonne compréhension du système dans sa globalité.
+
+% \section{ Modélisation UML}
+% \subsection{ Identification des acteurs du système}
+% L’identification des acteurs du système est une étape clé dans la modélisation d’un système basé sur UML.Un acteur représente un rôle joué par un utilisateur ou un autre système qui interagit avec le système à modéliser. Dans notre système, les acteurs principaux sont les utilisateurs, les administrateurs et la police. Ces acteurs interagiront avec le système pour déclarer un vol, signaler un vehicule retrouvé, accéder à des données ou effectuer des actions de sécurité.
+
+
 
 
 % \section{Choix Techniques}
@@ -319,88 +565,3 @@ Le diagramme de séquence du scénario  Alerter sur un véhicule recherché  met
 %     \item \textbf{Applications mobiles et systèmes collaboratifs} : développement de solutions participatives permettant aux citoyens de signaler rapidement les incidents et de contribuer activement à la prévention du cambriolage de véhicules.
 
 % \end{itemize}
-
-\section{Choix Techniques}
-
-Le développement du système de gestion et de déclaration de cambriolages de véhicules repose sur des choix technologiques adaptés aux besoins du projet. Ces choix sont guidés par des critères tels que la performance, la sécurité, la scalabilité et la maintenabilité.
-
-\subsection{Langages et Frameworks}
-
-\subsubsection{Front-End: ReactJS}
-Pour l’interface utilisateur, nous avons choisi \textbf{ReactJS} \cite{reactjs}, une bibliothèque JavaScript permettant la création d’interfaces dynamiques et réactives.  
-Ses principaux atouts sont : la réutilisabilité des composants, la réduction de la redondance du code et l’optimisation des performances grâce au DOM virtuel.  
-Ces caractéristiques améliorent l’expérience utilisateur et facilitent la maintenance.
-
-\subsubsection{Back-End: NestJS avec GraphQL et Prisma}
-Le back-end repose sur \textbf{NestJS} \cite{nestjs}, un framework modulaire basé sur \textbf{Node.js} et \textbf{TypeScript}, adapté aux applications évolutives.  
-Nous avons adopté \textbf{GraphQL} \cite{graphql} avec l’approche \textbf{Code First}, où le schéma est généré automatiquement à partir des classes TypeScript. Cela assure une forte cohérence entre le code et l’API.  
-
-La gestion des données est assurée par \textbf{Prisma} \cite{prisma}, un ORM moderne qui simplifie les opérations en base, génère automatiquement un client typé et facilite les migrations.  
-
-\textbf{Avantages principaux :}  
-\begin{itemize}
-    \item Structure modulaire et maintenable avec NestJS
-    \item Requêtes optimisées : GraphQL ne renvoie que les données nécessaires  
-    \item Gestion simplifiée des données et typage strict grâce à Prisma
-    \item Sécurité renforcée avec la validation et l’injection de dépendances  
-\end{itemize}
-
-\subsection{Base de Données}
-Le projet utilise \textbf{PostgreSQL} \cite{postgresql}, un SGBDR open-source reconnu pour sa fiabilité et sa conformité aux standards SQL.  
-Il offre une gestion avancée des transactions et, avec l’extension PostGIS, permet l’intégration de fonctionnalités géospatiales, utiles pour localiser les véhicules volés.
-
-\subsection{Architecture du Système et Conteneurisation}
-L’architecture adoptée est de type \textbf{client-serveur} et conteneurisée avec \textbf{Docker} \cite{docker} :
-\begin{itemize}
-    \item \textbf{Front-end :} ReactJS communique avec le serveur via des requêtes et mutations GraphQL \cite{reactjs, graphql}.  
-    \item \textbf{Back-end :} NestJS implémente l’API GraphQL (Code First) et interagit avec la base via Prisma \cite{nestjs, prisma}.  
-    \item \textbf{Base de données :} PostgreSQL, assurant robustesse et intégrité des données \cite{postgresql}.  
-    \item \textbf{Infrastructure :} Nginx agit comme reverse proxy pour la gestion des requêtes HTTP/HTTPS et l’équilibrage de charge \cite{nginx}.  
-    \item \textbf{Docker :} chaque composant (front-end, back-end, base de données) est isolé dans des conteneurs, garantissant portabilité, déploiement simplifié et cohérence entre les environnements \cite{docker}.
-\end{itemize}
-
-Cette architecture modulaire et conteneurisée garantit la scalabilité, la portabilité et une maintenance simplifiée.
-
-\subsection{Sécurité}
-La sécurité est un aspect central du projet, renforcé par plusieurs couches de protection :  
-\begin{itemize}
-    \item \textbf{Authentification sécurisée} avec JSON Web Tokens (JWT) et expiration automatique des sessions
-    \item \textbf{Chiffrement des communications} via HTTPS et TLS 1.2/1.3
-    \item \textbf{Contrôle d’accès} basé sur les rôles et permissions granulaires
-    \item \textbf{Hashage des mots de passe} avec bcrypt \cite{bcrypt} et salage renforcé
-    \item \textbf{Sécurité des conteneurs Docker} : isolation des services, limitation des privilèges et mise à jour régulière des images
-    \item \textbf{Protection contre les injections et attaques} : validation stricte des entrées utilisateur, prévention des injections SQL et XSS
-    \item \textbf{Journalisation et audit} : traçabilité de toutes les actions sensibles pour détecter les anomalies
-\end{itemize}
-
-Ces mesures assurent la confidentialité, l’intégrité et la disponibilité des données.
-
-
-\subsection{Avantages des Choix Techniques}
-\begin{itemize}
-    \item Interfaces dynamiques et performantes grâce à ReactJS
-    \item API robuste et typée avec NestJS, GraphQL et Prisma
-    \item Données fiables et extensibles via PostgreSQL
-    \item Sécurité renforcée par JWT, HTTPS, bcrypt et bonnes pratiques Docker
-    \item Architecture modulaire, scalable et conteneurisée avec Docker et Nginx
-    \item Documentation claire grâce à UML
-\end{itemize}
-
-\subsection{Limites}
-\begin{itemize}
-    \item \textbf{Complexité technique} nécessitant une expertise en JavaScript/TypeScript, NestJS et Prisma  
-    \item \textbf{Courbe d’apprentissage élevée} pour GraphQL, Docker et l’architecture sécurisée  
-    \item \textbf{Consommation de ressources} plus importante avec PostgreSQL et Docker que des solutions légères
-\end{itemize}
-
-
-\section{Conclusion}
-L'utilisation combinée des technologies modernes telles que ReactJS, NestJS, PostgreSQL, Prisma et Docker, ainsi que des bonnes pratiques de sécurité, nous permet de concevoir un système robuste et performant pour la gestion des cambriolages de véhicules. Ce système facilitera la collaboration entre les utilisateurs, les administrateurs et la police, tout en garantissant la sécurité, la fiabilité et la portabilité des données traitées.
-
-\section{Conclusion}
-L’utilisation combinée des technologies modernes telles que \gls{react}, \gls{nestjs}, \gls{postgresql}, \gls{prisma} et \gls{docker}, associée à l’adoption de bonnes pratiques de sécurité, a permis de concevoir un système robuste et performant dédié à la gestion des cambriolages de véhicules.  
-Ce système favorise la collaboration entre les utilisateurs, les administrateurs et les forces de l’ordre, tout en garantissant la sécurité, la fiabilité et la portabilité des données traitées.
-
-Le frontend est développé avec \gls{react}.
-Le backend utilise \gls{nestjs} et \gls{postgresql}.
-Le déploiement est réalisé avec \gls{docker}.

@@ -5,11 +5,7 @@
 
 \usepackage[acronym]{glossaries}
 \makeglossaries
-
-\setlength{\glsdescwidth}{0.65\textwidth}
-
-\loadglsentries{glossaire_reduit}
-\setlength{\glsdescwidth}{0.65\textwidth}% \usepackage{lscape}
+\setlength{\glsdescwidth}{0.80\textwidth}% \usepackage{lscape}
 
 \typeMemoire{Diplôme de Licence en Informatique}
 \optionFormation{Système d'Information et Réseau Informatique}
@@ -100,21 +96,14 @@
 % Liste des acronymes
 
 % Liste des acronymes
-\setglossarystyle{altlist}
-\printglossary[
-  title=Liste des acronymes,
-  toctitle=Liste des acronymes,
-  type=\acronymtype
-]
+% Glossaire
+
+\setglossarystyle{super}
+\printglossary[title=Glossaire]
+
 \newpage
 
-% Glossaire
-\printglossary[
-  title=Glossaire,
-  toctitle=Glossaire,
-  type=main
-]
-\newpage
+
 
 
 \pagenumbering{arabic}

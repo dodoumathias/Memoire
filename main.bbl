@@ -3,7 +3,7 @@
 \bibitem{interpol2023}
 {Interpol}.
 \newblock Stolen motor vehicles database (smv).
-\newblock \url{https://www.interpol.int}, 2023.
+\newblock \url{https://www.interpol.int/fr/Infractions/Criminalite-liee-aux-vehicules/Lutte-contre-la-criminalite-liee-aux-vehicules}, 2023.
 \newblock Consulté en 2023.
 
 \bibitem{europol2023}
@@ -17,36 +17,6 @@
 \newblock Déclarer un vol de véhicule.
 \newblock \url{https://www.service-public.fr}, 2023.
 \newblock Consulté en 2023.
-
-\bibitem{vts2023}
-{Vehicle Tracking Solutions}.
-\newblock Svr services.
-\newblock \url{https://www.vts.com}, 2023.
-\newblock Consulté en 2023.
-
-\bibitem{lojack2023}
-{LoJack Corporation}.
-\newblock Vehicle recovery solutions.
-\newblock \url{https://www.lojack.com}, 2023.
-\newblock Consulté en 2023.
-
-\bibitem{carlock2023}
-{Carlock}.
-\newblock Real-time car tracking \& security.
-\newblock \url{https://www.carlock.co}, 2023.
-\newblock Consulté en 2023.
-
-\bibitem{whistle2023}
-{Whistle}.
-\newblock Smart vehicle tracking.
-\newblock \url{https://whistledrive.com}, 2023.
-\newblock Consulté en 2023.
-
-\bibitem{genetec2022}
-{Genetec}.
-\newblock Automatic number plate recognition systems.
-\newblock \url{https://www.genetec.com}, 2022.
-\newblock Consulté en 2022.
 
 \bibitem{reactjs}
 {ReactJS}.
@@ -95,5 +65,35 @@
 \newblock A password hashing function.
 \newblock \url{https://en.wikipedia.org/wiki/Bcrypt}, 2023.
 \newblock Consulté en 2023.
+
+\bibitem{vts2023}
+{Vehicle Tracking Solutions}.
+\newblock Svr services.
+\newblock \url{https://www.vts.com}, 2023.
+\newblock Consulté en 2023.
+
+\bibitem{lojack2023}
+{LoJack Corporation}.
+\newblock Vehicle recovery solutions.
+\newblock \url{https://www.lojack.com}, 2023.
+\newblock Consulté en 2023.
+
+\bibitem{carlock2023}
+{Carlock}.
+\newblock Real-time car tracking \& security.
+\newblock \url{https://www.carlock.co}, 2023.
+\newblock Consulté en 2023.
+
+\bibitem{whistle2023}
+{Whistle}.
+\newblock Smart vehicle tracking.
+\newblock \url{https://whistledrive.com}, 2023.
+\newblock Consulté en 2023.
+
+\bibitem{genetec2022}
+{Genetec}.
+\newblock Automatic number plate recognition systems.
+\newblock \url{https://www.genetec.com}, 2022.
+\newblock Consulté en 2022.
 
 \end{thebibliography}
