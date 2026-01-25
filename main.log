@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.24)  24 JAN 2026 23:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.24)  25 JAN 2026 02:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -700,4 +700,952 @@ Package minitoc Info: I0010
  (/usr/share/texlive/texmf-dist/tex/latex/minitoc/francais.mld
 File: francais.mld 2004/12/14
 Package minitoc Info: I0010
-(minitoc)         
+(minitoc)             The french language is selected.
+(minitoc)              on input line 74.
+ (/usr/share/texlive/texmf-dist/tex/latex/minitoc/french.mld
+File: french.mld 2006/03/21
+))) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+)) (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/courier.sty
+Package: courier 2020/03/25 PSNFSS-v9.3 (WaS) 
+) (/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count351
+\algocf@hangindent=\skip98
+ (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count352
+LaTeX Info: Redefining \checkoddpage on input line 45.
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+) (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip99
+\skiplinenumber=\skip100
+\skiprule=\skip101
+\skiphlne=\skip102
+\skiptext=\skip103
+\skiplength=\skip104
+\algomargin=\skip105
+\skipalgocfslide=\skip106
+\algowidth=\dimen274
+\inoutsize=\dimen275
+\inoutindent=\dimen276
+\interspacetitleruled=\dimen277
+\interspacealgoruled=\dimen278
+\interspacetitleboxruled=\dimen279
+\algocf@ruledwidth=\skip107
+\algocf@inoutbox=\box70
+\algocf@inputbox=\box71
+\AlCapSkip=\skip108
+\AlCapHSkip=\skip109
+\algoskipindent=\skip110
+\algocf@nlbox=\box72
+\algocf@hangingbox=\box73
+\algocf@untilbox=\box74
+\algocf@skipuntil=\skip111
+\algocf@capbox=\box75
+\algocf@lcaptionbox=\skip112
+\algoheightruledefault=\skip113
+\algoheightrule=\skip114
+\algotitleheightruledefault=\skip115
+\algotitleheightrule=\skip116
+\c@algocfline=\count353
+\c@algocfproc=\count354
+\c@algocf=\count355
+\algocf@algoframe=\box76
+\algocf@algobox=\box77
+) (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+ (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count356
+\c@ALG@rem=\count357
+\c@ALG@nested=\count358
+\ALG@tlm=\skip117
+\ALG@thistlm=\skip118
+\c@ALG@Lnr=\count359
+\c@ALG@blocknr=\count360
+\c@ALG@storecount=\count361
+\c@ALG@tmpcounter=\count362
+\ALG@tmplength=\skip119
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2024/02/02 v0.75 LaTeX wrapper for `PSTricks' (RN,HV)
+ (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+) (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.tex (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex `pst-fp' v0.06, 2020/11/20 (hv)
+\pstFP@xs=\count363
+\pstFP@xia=\count364
+\pstFP@xib=\count365
+\pstFP@xfa=\count366
+\pstFP@xfb=\count367
+\pstFP@rega=\count368
+\pstFP@regb=\count369
+\pstFP@regs=\count370
+\pstFP@times=\count371
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks48
+\pgfutil@tempdima=\dimen280
+\pgfutil@tempdimb=\dimen281
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box78
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks49
+\pgfkeys@temptoks=\toks50
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks51
+))) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+\pgf@x=\dimen282
+\pgf@xa=\dimen283
+\pgf@xb=\dimen284
+\pgf@xc=\dimen285
+\pgf@y=\dimen286
+\pgf@ya=\dimen287
+\pgf@yb=\dimen288
+\pgf@yc=\dimen289
+\c@pgf@counta=\count372
+\c@pgf@countb=\count373
+\c@pgf@countc=\count374
+\c@pgf@countd=\count375
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen290
+\pgfmath@count=\count376
+\pgfmath@box=\box79
+\pgfmath@toks=\toks52
+\pgfmath@stack@operand=\toks53
+\pgfmath@stack@operation=\toks54
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count377
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen291
+\pgffor@skip=\dimen292
+\pgffor@stack=\toks55
+\pgffor@toks=\toks56
+))
+\psLoopIndex=\count378
+
+`PSTricks' v3.19c  <2024/02/02> (tvz,hv)
+\pst@dima=\dimen293
+\pst@dimb=\dimen294
+\pst@dimc=\dimen295
+\pst@dimd=\dimen296
+\pst@dimg=\dimen297
+\pst@dimh=\dimen298
+\pst@dimm=\dimen299
+\pst@dimn=\dimen300
+\pst@dimo=\dimen301
+\pst@dimp=\dimen302
+\pst@hbox=\box80
+\pst@ibox=\box81
+\pst@boxg=\box82
+\pst@cnta=\count379
+\pst@cntb=\count380
+\pst@cntc=\count381
+\pst@cntd=\count382
+\pst@cntg=\count383
+\pst@cnth=\count384
+\pst@cntm=\count385
+\pst@cntn=\count386
+\pst@cnto=\count387
+\pst@cntp=\count388
+\@zero=\count389
+\pst@toks=\toks57
+--- We are running latex or xelatex ---
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con) (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks-color.tex)
+\psunit=\dimen303
+\psxunit=\dimen304
+\psyunit=\dimen305
+\pst@C@@rType=\count390
+\pslinewidth=\dimen306
+\psk@startLW=\dimen307
+\psk@endLW=\dimen308
+ (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks-arrows.tex
+\pshooklength=\dimen309
+\pshookwidth=\dimen310
+)
+\pst@customdefs=\toks58
+ (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks-dots.tex)
+\pslinearc=\dimen311
+\pst@symbolStep=\dimen312
+\pst@symbolWidth=\dimen313
+\pst@symbolLinewidth=\dimen314
+\everypsbox=\toks59
+\psframesep=\dimen315
+\pslabelsep=\dimen316
+\sh@wgridXunit=\dimen317
+\sh@wgridYunit=\dimen318
+\pst@shift=\dimen319
+\ps@imagectr=\count391
+ (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con))
+File: pstricks.tex 2024/02/02 v3.19c `PSTricks' (tvz,hv)
+ (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex `pst-fp' v0.06, 2020/11/20 (hv))
+File: pst-fp.tex 2020/11/20 v0.06 `PST-fp' (hv)
+) (/usr/share/texlive/texmf-dist/tex/latex/pst-node/pst-node.sty
+Package: pst-node 2012/09/18 v1.01 LaTeX wrapper for `pst-node' (HV)
+Package: pst-node 2010/04/22 package wrapper for pst-node.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pst-node/pst-node.tex  v1.43, 2022/01/31
+\psrow=\count392
+\pscol=\count393
+\psmatrixcnt=\count394
+\psrowsep=\skip120
+\pscolsep=\skip121
+\pst@args=\count395
+\num@pts=\count396
+\pst@argcnt=\count397
+)
+File: pst-node.tex 2022/01/31 1.43 `pst-node' (tvz,hv)
+) (/usr/share/texlive/texmf-dist/tex/latex/pst-tree/pst-tree.sty
+Package: pst-tree 2009/01/25 package wrapper for pst-tree.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pst-tree/pst-tree.tex  v1.14, 2021/09/04(tvz,dg,hv)
+\pstree@rootbox=\box83
+\pstree@box=\box84
+\psnodecnt=\count398
+\pstreelevel=\count399
+\pstreecnt=\count400
+\pstree@cnt=\count401
+\pstree@stop=\count402
+)
+File: pst-tree.tex 2021/09/04 1.14 `pst-tree' (tvz,hv)
+) (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip122
+\cftbeforetoctitleskip=\skip123
+\cftaftertoctitleskip=\skip124
+\cftbeforepartskip=\skip125
+\cftpartnumwidth=\skip126
+\cftpartindent=\skip127
+\cftbeforechapskip=\skip128
+\cftchapindent=\skip129
+\cftchapnumwidth=\skip130
+\cftbeforesecskip=\skip131
+\cftsecindent=\skip132
+\cftsecnumwidth=\skip133
+\cftbeforesubsecskip=\skip134
+\cftsubsecindent=\skip135
+\cftsubsecnumwidth=\skip136
+\cftbeforesubsubsecskip=\skip137
+\cftsubsubsecindent=\skip138
+\cftsubsubsecnumwidth=\skip139
+\cftbeforeparaskip=\skip140
+\cftparaindent=\skip141
+\cftparanumwidth=\skip142
+\cftbeforesubparaskip=\skip143
+\cftsubparaindent=\skip144
+\cftsubparanumwidth=\skip145
+\cftbeforeloftitleskip=\skip146
+\cftafterloftitleskip=\skip147
+\cftbeforefigskip=\skip148
+\cftfigindent=\skip149
+\cftfignumwidth=\skip150
+\c@lofdepth=\count403
+\c@lotdepth=\count404
+\cftbeforelottitleskip=\skip151
+\cftafterlottitleskip=\skip152
+\cftbeforetabskip=\skip153
+\cfttabindent=\skip154
+\cfttabnumwidth=\skip155
+) (/usr/share/texlive/texmf-dist/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2021/11/10 v5.6 Nomenclature package
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2023/07/07 v3.41 KOMA-Script package (handling toc-files)
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
+)
+\scr@dte@tocline@numberwidth=\skip156
+\scr@dte@tocline@numbox=\box85
+)
+Package tocbasic Info: setting babel extension for `nlo' on input line 187.
+Package tocbasic Info: setting babel extension for `nls' on input line 188.
+\nomlabelwidth=\dimen320
+\nom@tempdim=\dimen321
+\nomitemsep=\skip157
+)
+\@nomenclaturefile=\write4
+\openout4 = `main.nlo'.
+
+Package nomencl Info: Writing nomenclature file main.nlo on input line 329.
+\@indexfile=\write5
+\openout5 = `main.idx'.
+
+
+Writing index file main.idx
+\glswrite=\write6
+\glo@main@file=\write7
+\openout7 = `main.glo'.
+
+Package glossaries Info: Writing glossary file main.glo on input line 419.
+\glo@acronym@file=\write8
+\openout8 = `main.acn'.
+
+Package glossaries Info: Writing glossary file main.acn on input line 419.
+) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2023/10/27 v2.16 TOC entries
+\ttl@leftsep=\dimen322
+) (./glossaire_reduit.tex)
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 45.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count405
+\l__pdf_internal_box=\box86
+) (./main.aux (./0-dedicace.aux) (./1-remerciements.aux) (./2-resume.aux) (./3-introduction.aux) (./4-conclusion.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Info: Redefining \degres on input line 45.
+LaTeX Info: Redefining \up on input line 45.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count406
+\scratchdimen=\dimen323
+\scratchbox=\box87
+\nofMPsegments=\count407
+\nofMParguments=\count408
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count409
+\MPscratchDim=\dimen324
+\MPnumerator=\count410
+\makeMPintoPDFobject=\count411
+\everyMPtoPDFconversion=\toks61
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Option `amssymb' provided! 
+ Command \square redefined by SIunits package!
+
+
+Package SIunits Warning: The command \gray was already defined.
+(SIunits)                Possibly due to the pstricks package.
+
+Hint: use option `pstricks' or `Gray' with SIunits package.
+See SIunits.dvi or readme.txt section: Known problems and limitations.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=15.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring ON on input line 45.
+(./main.out) (./main.out)
+\@outlinefile=\write9
+\openout9 = `main.out'.
+
+\c@lstlisting=\count412
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+\c@minilofdepth=\count413
+\c@minilotdepth=\count414
+\c@partlofdepth=\count415
+\c@partlotdepth=\count416
+\c@sectlofdepth=\count417
+\c@sectlotdepth=\count418
+Package minitoc(hints) Info: I0049
+(minitoc(hints))             ==> You requested the hints option. 
+(minitoc(hints))             Some hints are eventually given below.
+Package minitoc(hints) Info: I0046
+(minitoc(hints))             --- The tocbibind package is loaded. 
+(minitoc(hints))             See the minitoc package documentation 
+(minitoc(hints))             for specific precautions.
+Package minitoc(hints) Info: I0047
+(minitoc(hints))             --- The tocloft package is loaded. 
+(minitoc(hints))             See the minitoc package documentation 
+(minitoc(hints))             for specific precautions.
+
+
+Package minitoc(hints) Warning: W0099
+(minitoc(hints))                --- The titlesec package is loaded. 
+(minitoc(hints))                It is incompatible 
+(minitoc(hints))                with the minitoc package.
+
+
+Package minitoc(hints) Warning: W0040
+(minitoc(hints))                --- The titletoc package is loaded. 
+(minitoc(hints))                It is incompatible 
+(minitoc(hints))                with the minitoc package.
+
+
+Package minitoc(hints) Warning: W0030
+(minitoc(hints))                --- The \part command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+
+Package minitoc(hints) Warning: W0028
+(minitoc(hints))                --- The \chapter command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 47.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+<images/logoUAC1.png, id=335, 160.6pt x 186.6975pt>
+File: images/logoUAC1.png Graphic file (type png)
+<use images/logoUAC1.png>
+Package pdftex.def Info: images/logoUAC1.png  used on input line 47.
+(pdftex.def)             Requested size: 80.29979pt x 93.34851pt.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 47.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+<images/logoIfri.png, id=339, 200.75pt x 126.874pt>
+File: images/logoIfri.png Graphic file (type png)
+<use images/logoIfri.png>
+Package pdftex.def Info: images/logoIfri.png  used on input line 47.
+(pdftex.def)             Requested size: 100.37474pt x 63.43683pt.
+
+Overfull \hbox (0.7901pt too wide) in paragraph at lines 47--47
+[]  
+ []
+
+[1
+Non-PDF special ignored!
+<special> header=pstricks.pro
+Non-PDF special ignored!
+<special> header=pst-algparser.pro
+Non-PDF special ignored!
+<special> header=pst-tools.pro
+Non-PDF special ignored!
+<special> header=pst-dots.pro
+Non-PDF special ignored!
+<special> header=pst-node.pro
+
+Non-PDF special ignored!
+<special> ps: /pssetRGBcolor /setrgbcolor load def /pssetCMYKcolor /setcmyk...
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
+Non-PDF special ignored!
+<special> ps:0.8 setlinewidth 0 setgray
+\openout6 = `main.ist'.
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} <./images/logoUAC1.png> <./images/logoIfri.png>]
+\c@ttl@toc@default=\count419
+ (./main.ptc) [1
+
+]
+\openout2 = `0-dedicace.aux'.
+
+ (./0-dedicace.tex) [2
+
+
+]
+\openout2 = `1-remerciements.aux'.
+
+ (./1-remerciements.tex) [3
+
+
+
+
+]
+\openout2 = `2-resume.aux'.
+
+ (./2-resume.tex
+
+Package hyperref Warning: Difference (4) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 14.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 14.
+
+[4
+
+
+
+
+]
+
+Package hyperref Warning: Difference (4) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 34.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 34.
+
+) [5] (./main.lof)
+\tf@lof=\write10
+\openout10 = `main.lof'.
+
+ [6
+
+
+] (./main.gls
+Overfull \hbox (4.85301pt too wide) in paragraph at lines 2--49
+[] 
+ []
+
+[7
+
+
+])
+Overfull \hbox (3.3638pt too wide) in paragraph at lines 49--103
+[] 
+ []
+
+[8]
+\openout2 = `3-introduction.aux'.
+
+ (./3-introduction.tex
+Overfull \hbox (5.84906pt too wide) in paragraph at lines 14--16
+\T1/ppl/m/n/10.95 rapide et de co-or-di-na-tion en-tre citoyens et les forces de l'ordres, ac-centue la vul-néra-bil-ité des véhicules.
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 22.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23     \item R
+                enforcer la coopÃ©ration entre citoyens et les forces de l'o... [1
+
+
+]
+Overfull \hbox (0.54977pt too wide) in paragraph at lines 36--38
+\T1/ppl/m/n/10.95 Proposition d'un mod-èle in-no-vant de sys-tème d'alerte com-mu-nau-taire, dé-tail-lant l'architecture,
+ []
+
+) [2]
+Chapitre 1.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 119.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 119.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) (./1-partie/1-fichier.tex [3
+
+
+
+] [4] [5] [6] [7]) [8]
+Chapitre 2.
+(./2-partie/1-fichier.tex [9
+
+] [10]
+<Diagramme1.png, id=535, 1197.47375pt x 1214.5375pt>
+File: Diagramme1.png Graphic file (type png)
+<use Diagramme1.png>
+Package pdftex.def Info: Diagramme1.png  used on input line 33.
+(pdftex.def)             Requested size: 469.46132pt x 455.22806pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
+
+ []
+
+[11 <./Diagramme1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--88
+
+ []
+
+[12]
+<classe.png, id=553, 1627.07875pt x 1228.59pt>
+File: classe.png Graphic file (type png)
+<use classe.png>
+Package pdftex.def Info: classe.png  used on input line 102.
+(pdftex.def)             Requested size: 483.68332pt x 455.24606pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
+
+ []
+
+[13 <./classe.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--130
+
+ []
+
+[14]
+<sequence1.png, id=567, 744.7825pt x 603.25375pt>
+File: sequence1.png Graphic file (type png)
+<use sequence1.png>
+Package pdftex.def Info: sequence1.png  used on input line 158.
+(pdftex.def)             Requested size: 455.25992pt x 412.56357pt.
+ [15 <./sequence1.png>]
+<sequence3.png, id=572, 1457.445pt x 672.5125pt>
+File: sequence3.png Graphic file (type png)
+<use sequence3.png>
+Package pdftex.def Info: sequence3.png  used on input line 180.
+(pdftex.def)             Requested size: 455.22806pt x 455.2501pt.
+ [16 <./sequence3.png>]
+<sequence2.png, id=579, 1248.665pt x 873.2625pt>
+File: sequence2.png Graphic file (type png)
+<use sequence2.png>
+Package pdftex.def Info: sequence2.png  used on input line 197.
+(pdftex.def)             Requested size: 455.23499pt x 426.78308pt.
+ [17 <./sequence2.png>] [18] [19]) [20]
+Chapitre 3.
+(./3-partie/1-fichier.tex
+<3-partie/accueil1.png, id=642, 1854.93pt x 898.35625pt>
+File: 3-partie/accueil1.png Graphic file (type png)
+<use 3-partie/accueil1.png>
+Package pdftex.def Info: 3-partie/accueil1.png  used on input line 86.
+(pdftex.def)             Requested size: 386.95897pt x 187.39926pt.
+<3-partie/accueil2.png, id=643, 1847.90375pt x 538.01pt>
+File: 3-partie/accueil2.png Graphic file (type png)
+<use 3-partie/accueil2.png>
+Package pdftex.def Info: 3-partie/accueil2.png  used on input line 87.
+(pdftex.def)             Requested size: 386.95897pt x 112.65706pt.
+ [21
+
+]
+Overfull \hbox (15.17142pt too wide) in paragraph at lines 99--100
+[]\T1/ppl/b/n/10.95 Menu de na-vi-ga-tion : \T1/ppl/m/n/10.95 In-clut des liens vers les prin-ci-pales pages comme l'Ins-crip-tion, la Connexion,
+ []
+
+[22 <./3-partie/accueil1.png> <./3-partie/accueil2.png>]
+<3-partie/inscription1.png, id=655, 1848.9075pt x 159.59625pt>
+File: 3-partie/inscription1.png Graphic file (type png)
+<use 3-partie/inscription1.png>
+Package pdftex.def Info: 3-partie/inscription1.png  used on input line 109.
+(pdftex.def)             Requested size: 386.95897pt x 33.40173pt.
+<3-partie/inscription2.png, id=656, 1849.91125pt x 957.5775pt>
+File: 3-partie/inscription2.png Graphic file (type png)
+<use 3-partie/inscription2.png>
+Package pdftex.def Info: 3-partie/inscription2.png  used on input line 110.
+(pdftex.def)             Requested size: 386.95897pt x 200.29358pt.
+<3-partie/connexion1.png, id=657, 1850.915pt x 945.5325pt>
+File: 3-partie/connexion1.png Graphic file (type png)
+<use 3-partie/connexion1.png>
+Package pdftex.def Info: 3-partie/connexion1.png  used on input line 133.
+(pdftex.def)             Requested size: 386.95897pt x 197.67317pt.
+<3-partie/connexion2.png, id=658, 1853.92625pt x 48.18pt>
+File: 3-partie/connexion2.png Graphic file (type png)
+<use 3-partie/connexion2.png>
+Package pdftex.def Info: 3-partie/connexion2.png  used on input line 134.
+(pdftex.def)             Requested size: 386.95897pt x 10.05634pt.
+ [23 <./3-partie/inscription1.png> <./3-partie/inscription2.png> <./3-partie/connexion1.png> <./3-partie/connexion2.png>]
+<3-partie/useraccueil.png, id=667, 1841.88126pt x 953.5625pt>
+File: 3-partie/useraccueil.png Graphic file (type png)
+<use 3-partie/useraccueil.png>
+Package pdftex.def Info: 3-partie/useraccueil.png  used on input line 149.
+(pdftex.def)             Requested size: 386.95897pt x 200.32678pt.
+File: 3-partie/connexion2.png Graphic file (type png)
+<use 3-partie/connexion2.png>
+Package pdftex.def Info: 3-partie/connexion2.png  used on input line 150.
+(pdftex.def)             Requested size: 386.95897pt x 10.05634pt.
+<3-partie/declarer1.png, id=668, 1849.91125pt x 241.90375pt>
+File: 3-partie/declarer1.png Graphic file (type png)
+<use 3-partie/declarer1.png>
+Package pdftex.def Info: 3-partie/declarer1.png  used on input line 166.
+(pdftex.def)             Requested size: 386.95897pt x 50.59827pt.
+<3-partie/declarer2.png, id=669, 1851.91875pt x 951.555pt>
+File: 3-partie/declarer2.png Graphic file (type png)
+<use 3-partie/declarer2.png>
+Package pdftex.def Info: 3-partie/declarer2.png  used on input line 167.
+(pdftex.def)             Requested size: 386.95897pt x 198.81607pt.
+File: 3-partie/connexion2.png Graphic file (type png)
+<use 3-partie/connexion2.png>
+Package pdftex.def Info: 3-partie/connexion2.png  used on input line 168.
+(pdftex.def)             Requested size: 386.95897pt x 10.05634pt.
+ [24 <./3-partie/useraccueil.png>]
+<3-partie/signaler.png, id=675, 1841.88126pt x 956.57375pt>
+File: 3-partie/signaler.png Graphic file (type png)
+<use 3-partie/signaler.png>
+Package pdftex.def Info: 3-partie/signaler.png  used on input line 189.
+(pdftex.def)             Requested size: 386.95897pt x 200.9594pt.
+ [25 <./3-partie/declarer1.png> <./3-partie/declarer2.png> <./3-partie/signaler.png>]
+<3-partie/statistique1.png, id=683, 1842.885pt x 960.58875pt>
+File: 3-partie/statistique1.png Graphic file (type png)
+<use 3-partie/statistique1.png>
+Package pdftex.def Info: 3-partie/statistique1.png  used on input line 205.
+(pdftex.def)             Requested size: 386.95897pt x 201.68561pt.
+<3-partie/statistique2.png, id=684, 1842.885pt x 404.51125pt>
+File: 3-partie/statistique2.png Graphic file (type png)
+<use 3-partie/statistique2.png>
+Package pdftex.def Info: 3-partie/statistique2.png  used on input line 206.
+(pdftex.def)             Requested size: 386.95897pt x 84.93135pt.
+<3-partie/profil.png, id=685, 1845.89626pt x 721.69624pt>
+File: 3-partie/profil.png Graphic file (type png)
+<use 3-partie/profil.png>
+Package pdftex.def Info: 3-partie/profil.png  used on input line 225.
+(pdftex.def)             Requested size: 386.95897pt x 151.28537pt.
+File: 3-partie/connexion2.png Graphic file (type png)
+<use 3-partie/connexion2.png>
+Package pdftex.def Info: 3-partie/connexion2.png  used on input line 226.
+(pdftex.def)             Requested size: 386.95897pt x 10.05634pt.
+ [26 <./3-partie/statistique1.png> <./3-partie/statistique2.png>]
+<3-partie/policeaccueil.png, id=692, 1846.9pt x 848.16875pt>
+File: 3-partie/policeaccueil.png Graphic file (type png)
+<use 3-partie/policeaccueil.png>
+Package pdftex.def Info: 3-partie/policeaccueil.png  used on input line 241.
+(pdftex.def)             Requested size: 386.95897pt x 177.70654pt.
+File: 3-partie/connexion2.png Graphic file (type png)
+<use 3-partie/connexion2.png>
+Package pdftex.def Info: 3-partie/connexion2.png  used on input line 242.
+(pdftex.def)             Requested size: 386.95897pt x 10.05634pt.
+<3-partie/admin.png, id=693, 1859.94875pt x 962.59625pt>
+File: 3-partie/admin.png Graphic file (type png)
+<use 3-partie/admin.png>
+Package pdftex.def Info: 3-partie/admin.png  used on input line 269.
+(pdftex.def)             Requested size: 386.95897pt x 200.25642pt.
+ [27 <./3-partie/profil.png> <./3-partie/policeaccueil.png>]
+<3-partie/gestionpatrouille.png, id=700, 1859.94875pt x 962.59625pt>
+File: 3-partie/gestionpatrouille.png Graphic file (type png)
+<use 3-partie/gestionpatrouille.png>
+Package pdftex.def Info: 3-partie/gestionpatrouille.png  used on input line 286.
+(pdftex.def)             Requested size: 386.95897pt x 200.25642pt.
+ [28 <./3-partie/admin.png> <./3-partie/gestionpatrouille.png>]
+<3-partie/gestionrapport.png, id=709, 1859.94875pt x 962.59625pt>
+File: 3-partie/gestionrapport.png Graphic file (type png)
+<use 3-partie/gestionrapport.png>
+Package pdftex.def Info: 3-partie/gestionrapport.png  used on input line 302.
+(pdftex.def)             Requested size: 386.95897pt x 200.25642pt.
+<3-partie/gestionpolice.png, id=710, 1859.94875pt x 962.59625pt>
+File: 3-partie/gestionpolice.png Graphic file (type png)
+<use 3-partie/gestionpolice.png>
+Package pdftex.def Info: 3-partie/gestionpolice.png  used on input line 346.
+(pdftex.def)             Requested size: 386.95897pt x 200.25642pt.
+ [29 <./3-partie/gestionrapport.png>]
+File: 3-partie/admin.png Graphic file (type png)
+<use 3-partie/admin.png>
+Package pdftex.def Info: 3-partie/admin.png  used on input line 368.
+(pdftex.def)             Requested size: 386.95897pt x 200.25642pt.
+ [30 <./3-partie/gestionpolice.png>]
+<3-partie/gestionadmin.png, id=721, 1859.94875pt x 962.59625pt>
+File: 3-partie/gestionadmin.png Graphic file (type png)
+<use 3-partie/gestionadmin.png>
+Package pdftex.def Info: 3-partie/gestionadmin.png  used on input line 395.
+(pdftex.def)             Requested size: 386.95897pt x 200.25642pt.
+ [31 <./3-partie/gestionadmin.png>]) [32]
+\openout2 = `4-conclusion.aux'.
+
+ (./4-conclusion.tex
+
+LaTeX Warning: Citation `ehrig2006graph' on page 33 undefined on input line 8.
+
+) [33
+
+
+] (./main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+\T1/pcr/m/n/10.95 a c t i o n s / C r i m i n a l i t e -[] l i ee -[] a u x -[] v e h i c u l e s / L u t t e -[] c o n t re -[] la -[] c r i m i n a l i t e -[]
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 22--26
+[]\T1/ppl/m/n/10.95 Europol.  Schen-gen in-for-ma-tion sys-tem (sis ii).  [][]$\T1/pcr/m/n/10.95 h t t p s : / / w w w . e u r o p o l . e u r o p a . e u$[][]\T1/ppl/m/n/10.95 .
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 70--74
+[]\T1/ppl/m/n/10.95 Docker.  Em-po-we-ring app de-ve-lop-ment for de-ve-lo-pers.  [][]$\T1/pcr/m/n/10.95 h t t p s : / / w w w . d o c k e r . c om$[][]\T1/ppl/m/n/10.95 .
+ []
+
+) [34
+
+
+
+] (./main.toc [35] [36])
+\tf@toc=\write11
+\openout11 = `main.toc'.
+
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the main.maf file.
+\openout3 = `main.maf'.
+
+Package minitoc(hints) Info: I0053
+(minitoc(hints))             You have loaded the float package; 
+(minitoc(hints))             please be aware that the minitoc package 
+(minitoc(hints))             facilities can not be used for new types 
+(minitoc(hints))             of floats defined by the float package.
+
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the main.log file.
+
+\tf@ptc=\write12
+\openout12 = `main.ptc'.
+
+[37] 
+enddocument/afterlastpage: lastpage setting LastPage.
+(./main.aux (./0-dedicace.aux) (./1-remerciements.aux) (./2-resume.aux) (./3-introduction.aux) (./4-conclusion.aux))
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: AD38571329CB89F077F397EF79E9DBCC;13745.
+ ) 
+Here is how much of TeX's memory you used:
+ 39121 strings out of 474222
+ 681908 string characters out of 5748732
+ 1944975 words of memory out of 5000000
+ 60463 multiletter control sequences out of 15000+600000
+ 603708 words of font info for 111 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 125i,14n,131p,2364b,755s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on main.pdf (46 pages, 6015509 bytes).
+PDF statistics:
+ 935 PDF objects out of 1000 (max. 8388607)
+ 817 compressed objects within 9 object streams
+ 191 named destinations out of 1000 (max. 500000)
+ 795 words of extra memory for PDF output out of 10000 (max. 10000000)
+

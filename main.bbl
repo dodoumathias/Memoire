@@ -1,99 +1,87 @@
 \begin{thebibliography}{10}
 
+\bibitem{dgpr2023}
+{Direction Générale de la Police Républicaine}.
+\newblock Déclaration de vol ou de perte.
+\newblock \url{https://www.dgpr.bj/declaration-de-vol-perte/}.
+\newblock Consulté en 2026.
+
 \bibitem{interpol2023}
 {Interpol}.
 \newblock Stolen motor vehicles database (smv).
-\newblock \url{https://www.interpol.int/fr/Infractions/Criminalite-liee-aux-vehicules/Lutte-contre-la-criminalite-liee-aux-vehicules}, 2023.
-\newblock Consulté en 2023.
+\newblock \url{https://www.interpol.int/fr/Infractions/Criminalite-liee-aux-vehicules/Lutte-contre-la-criminalite-liee-aux-vehicules}.
+\newblock Consulté en 2026.
+
+\bibitem{digitpol2023}
+{DIGITPOL}.
+\newblock International stolen vehicle database.
+\newblock \url{https://digitpol.com/automotive/}.
+\newblock Consulté en 2026.
 
 \bibitem{europol2023}
 {Europol}.
 \newblock Schengen information system (sis ii).
-\newblock \url{https://www.europol.europa.eu}, 2023.
-\newblock Consulté en 2023.
+\newblock \url{https://www.europol.europa.eu}.
+\newblock Consulté en 2026.
 
 \bibitem{servicepublic2023}
 {Service Public France}.
 \newblock Déclarer un vol de véhicule.
-\newblock \url{https://www.service-public.fr}, 2023.
-\newblock Consulté en 2023.
+\newblock \url{https://www.service-public.gouv.fr/particuliers/vosdroits/F21138}.
+\newblock Consulté en 2026.
+
+\bibitem{saintmartin2023}
+{Collectivité de Saint-Martin}.
+\newblock Déclaration de vol d’un véhicule.
+\newblock \url{https://www.comstmartin.fr/demarches_administratives}.
+\newblock Consulté en 2026.
 
 \bibitem{reactjs}
 {ReactJS}.
 \newblock A javascript library for building user interfaces.
-\newblock \url{https://reactjs.org}, 2023.
-\newblock Consulté en 2023.
+\newblock \url{https://reactjs.org}.
+\newblock Consulté en 2026.
 
 \bibitem{nestjs}
 {NestJS}.
 \newblock A progressive node.js framework for building efficient, reliable and scalable server-side applications.
-\newblock \url{https://nestjs.com}, 2023.
-\newblock Consulté en 2023.
+\newblock \url{https://nestjs.com}.
+\newblock Consulté en 2026.
 
 \bibitem{graphql}
 {GraphQL}.
 \newblock A query language for your api.
-\newblock \url{https://graphql.org}, 2023.
-\newblock Consulté en 2023.
+\newblock \url{https://graphql.org}.
+\newblock Consulté en 2026.
 
 \bibitem{prisma}
 {Prisma}.
 \newblock Next-generation orm for node.js and typescript.
-\newblock \url{https://www.prisma.io}, 2023.
-\newblock Consulté en 2023.
+\newblock \url{https://www.prisma.io}.
+\newblock Consulté en 2026.
 
 \bibitem{postgresql}
 {PostgreSQL}.
 \newblock The world's most advanced open source relational database.
-\newblock \url{https://www.postgresql.org}, 2023.
-\newblock Consulté en 2023.
+\newblock \url{https://www.postgresql.org}.
+\newblock Consulté en 2026.
 
 \bibitem{docker}
 {Docker}.
 \newblock Empowering app development for developers.
-\newblock \url{https://www.docker.com}, 2023.
-\newblock Consulté en 2023.
+\newblock \url{https://www.docker.com}.
+\newblock Consulté en 2026.
 
 \bibitem{nginx}
 {NGINX}.
 \newblock Nginx open source web server.
-\newblock \url{https://www.nginx.com}, 2023.
-\newblock Consulté en 2023.
+\newblock \url{https://www.nginx.com}.
+\newblock Consulté en 2026.
 
 \bibitem{bcrypt}
 {BCrypt}.
 \newblock A password hashing function.
-\newblock \url{https://en.wikipedia.org/wiki/Bcrypt}, 2023.
+\newblock \url{https://en.wikipedia.org/wiki/Bcrypt}.
 \newblock Consulté en 2023.
-
-\bibitem{vts2023}
-{Vehicle Tracking Solutions}.
-\newblock Svr services.
-\newblock \url{https://www.vts.com}, 2023.
-\newblock Consulté en 2023.
-
-\bibitem{lojack2023}
-{LoJack Corporation}.
-\newblock Vehicle recovery solutions.
-\newblock \url{https://www.lojack.com}, 2023.
-\newblock Consulté en 2023.
-
-\bibitem{carlock2023}
-{Carlock}.
-\newblock Real-time car tracking \& security.
-\newblock \url{https://www.carlock.co}, 2023.
-\newblock Consulté en 2023.
-
-\bibitem{whistle2023}
-{Whistle}.
-\newblock Smart vehicle tracking.
-\newblock \url{https://whistledrive.com}, 2023.
-\newblock Consulté en 2023.
-
-\bibitem{genetec2022}
-{Genetec}.
-\newblock Automatic number plate recognition systems.
-\newblock \url{https://www.genetec.com}, 2022.
-\newblock Consulté en 2022.
 
 \end{thebibliography}
